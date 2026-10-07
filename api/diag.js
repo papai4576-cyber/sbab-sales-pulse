@@ -8,6 +8,12 @@ const MODELS = [
   "google/gemma-4-26b-a4b-it:free",
   "nvidia/nemotron-3-super-120b-a12b:free",
   "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "nvidia/nemotron-3.5-lightning:free",
+  "liquid/lfm-2.5-2.6b:free",
+  "apodex/apodex-1.1-mini:free",
+  "inclusionai/ling-3.0-flash-sante:free",
+  "dots-studio/dots-3-note-preview:free",
+  "poolside/laguna-s-2.1:free",
 ];
 
 module.exports = async (req, res) => {
