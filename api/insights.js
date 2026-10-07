@@ -28,7 +28,8 @@ module.exports = async (req, res) => {
 
     const systemPrompt = [
       "You are a sales analyst for Baidyanath (SBAB) and its sub-brand Goodcare, a D2C ayurvedic/wellness brand in India.",
-      "Revenue figures are taxable value in INR, net of returns. Use only the JSON data given below -- never invent numbers or products.",
+      "Figures are in INR, net of returns. \"revenue\" is taxable value before GST (the dashboard's primary net-revenue figure). \"grossRevenue\" is total invoice value including GST; it is null for months where that wasn't tracked -- don't estimate it.",
+      "Use only the JSON data given below -- never invent numbers or products.",
       `Write a short monthly insight note for ${target.label}, for a reader who already knows the business.`,
       'Plain text only, no markdown headers or bold. Use three short sections, each as lines starting with "- ":',
       "Headline: one line on how the month went overall versus recent months.",

@@ -677,20 +677,22 @@ function parseWorkbook(wb){
   saleRowCount = sc.n; returnRowCount = rc.n;
 
   const products = [];
-  let totalRevenue = 0, totalUnits = 0;
+  let totalRevenue = 0, totalUnits = 0, totalInvoice = 0;
   let unmappedRevenue = 0, unmappedCount = 0;
   Object.keys(agg).forEach(code => {
     const a = agg[code];
     const meta = lookupMaster(code, a.name);
     if(meta.brand === 'Unmapped/Other'){ unmappedRevenue += a.revenue; unmappedCount++; }
     products.push({code, name: meta.name, brand: meta.brand, division: meta.division,
-      units: Math.round(a.units*100)/100, revenue: Math.round(a.revenue*100)/100});
-    totalRevenue += a.revenue; totalUnits += a.units;
+      units: Math.round(a.units*100)/100, revenue: Math.round(a.revenue*100)/100,
+      grossRevenue: Math.round(a.invoice*100)/100});
+    totalRevenue += a.revenue; totalUnits += a.units; totalInvoice += a.invoice;
   });
   const orders = saleOrders.size;
   return {
     products, orders,
     revenue: Math.round(totalRevenue*100)/100,
+    grossRevenue: Math.round(totalInvoice*100)/100,
     units: Math.round(totalUnits*100)/100,
     aov: orders ? Math.round(totalRevenue/orders*100)/100 : 0,
     unmappedRevenue: Math.round(unmappedRevenue*100)/100,
@@ -784,7 +786,8 @@ document.getElementById('parseBtn').addEventListener('click', async () => {
 
     document.getElementById('uploadStatTiles').innerHTML = [
       {label:'Month', value: monthLabel(monthKey)},
-      {label:'Revenue', value: fmtINR(parsed.revenue)},
+      {label:'Net revenue (ex-GST)', value: fmtINR(parsed.revenue)},
+      {label:'Gross revenue (incl. GST)', value: fmtINR(parsed.grossRevenue)},
       {label:'Units sold', value: fmtNum(parsed.units)},
       {label:'Orders', value: fmtNum(parsed.orders)},
     ].map(t => `<div class="kpi"><div class="label">${t.label}</div><div class="value" style="font-size:19px;">${t.value}</div></div>`).join('');
@@ -826,7 +829,7 @@ async function saveMonth(monthKey, parsed){
   const note = (document.getElementById('monthNote').value || '').trim();
   const payload = {
     label: monthLabel(monthKey),
-    revenue: parsed.revenue, units: parsed.units, orders: parsed.orders, aov: parsed.aov,
+    revenue: parsed.revenue, grossRevenue: parsed.grossRevenue, units: parsed.units, orders: parsed.orders, aov: parsed.aov,
     products: parsed.products,
     note: note || null,
     savedAt: new Date().toISOString(),
@@ -1463,7 +1466,22 @@ function renderHeadline(){
     html += `<div class="headline">${monthLabel(lastKey)} revenue: <b>${fmtINR(last.revenue)}</b> &middot; ${fmtNum(last.units)} units &middot; ${fmtNum(last.orders)} orders. Add another month to see trend comparisons.</div>`;
     if(last.note) html += `<div class="gap-note">${monthLabel(lastKey)} note: "${last.note}"</div>`;
   }
+  html += grossVsNetLine(lastKey);
   el.innerHTML = html;
+}
+
+// Gross revenue (incl. GST, net of returns) vs the dashboard's primary
+// "revenue" figure (taxable value, net of returns — before tax). Only
+// present for months uploaded after gross tracking was added; older months
+// show a note instead of a blank/misleading figure.
+function grossVsNetLine(key){
+  const m = MONTHS[key];
+  if(!m) return '';
+  if(m.grossRevenue == null){
+    return `<div class="gap-note">Gross revenue (incl. GST) isn’t tracked for ${monthLabel(key)} — only months uploaded after this feature was added have it.</div>`;
+  }
+  const gst = m.grossRevenue - m.revenue;
+  return `<div class="gap-note">For ${monthLabel(key)}: gross revenue (incl. GST) <b>${fmtINR(m.grossRevenue)}</b> &middot; net revenue before tax <b>${fmtINR(m.revenue)}</b> &middot; GST collected ${fmtINR(gst)}</div>`;
 }
 
 function renderUnmappedBanner(){

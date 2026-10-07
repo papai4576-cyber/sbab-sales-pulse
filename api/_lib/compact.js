@@ -50,6 +50,7 @@ function compactMonths(months) {
       key,
       label: m.label || key,
       revenue: round2(m.revenue),
+      grossRevenue: m.grossRevenue == null ? null : round2(m.grossRevenue),
       units: Number(m.units) || 0,
       orders: Number(m.orders) || 0,
       aov: Number(m.aov) || 0,

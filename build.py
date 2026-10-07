@@ -30,7 +30,7 @@ TEMPLATE = os.path.join(HERE, "dashboard-template.html")
 DATA_DIR = os.path.join(HERE, "data", "months")
 OUT = os.path.join(HERE, "index.html")
 
-MONTH_KEYS = ["label", "revenue", "units", "orders", "aov", "products", "note"]
+MONTH_KEYS = ["label", "revenue", "grossRevenue", "units", "orders", "aov", "products", "note"]
 
 
 def load_months():

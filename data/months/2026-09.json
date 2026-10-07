@@ -12,7 +12,8 @@
    "brand": "Baidyanath",
    "division": "GHEE",
    "units": 825.0,
-   "revenue": 462747.38
+   "revenue": 462747.38,
+   "grossRevenue": 493101.75
   },
   {
    "code": 2010836700100010,
@@ -20,7 +21,8 @@
    "brand": "KaminiVrindawan Ras",
    "division": "RAS RASAYAN",
    "units": 278.0,
-   "revenue": 343289.37
+   "revenue": 343289.37,
+   "grossRevenue": 360542.1
   },
   {
    "code": 2082616400200010,
@@ -28,7 +30,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 210.0,
-   "revenue": 137152.78
+   "revenue": 137152.78,
+   "grossRevenue": 147917.98
   },
   {
    "code": 3033173205000110,
@@ -36,7 +39,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 153.0,
-   "revenue": 126065.19
+   "revenue": 126065.19,
+   "grossRevenue": 135037.1
   },
   {
    "code": 2010836700050010,
@@ -44,7 +48,8 @@
    "brand": "KaminiVrindawan Ras",
    "division": "RAS RASAYAN",
    "units": 159.0,
-   "revenue": 101882.09
+   "revenue": 101882.09,
+   "grossRevenue": 106976.3
   },
   {
    "code": 1011616900250010,
@@ -52,7 +57,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 16.0,
-   "revenue": 57833.16
+   "revenue": 57833.16,
+   "grossRevenue": 60773.8
   },
   {
    "code": 1011624400250010,
@@ -60,7 +66,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 26.0,
-   "revenue": 44571.52
+   "revenue": 44571.52,
+   "grossRevenue": 47532.96
   },
   {
    "code": 1011616000100010,
@@ -68,7 +75,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 16.0,
-   "revenue": 39689.12
+   "revenue": 39689.12,
+   "grossRevenue": 41869.6
   },
   {
    "code": 1040600700010110,
@@ -76,7 +84,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 65.0,
-   "revenue": 38497.45
+   "revenue": 38497.45,
+   "grossRevenue": 41722.56
   },
   {
    "code": 2020100101000220,
@@ -84,7 +93,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 137.0,
-   "revenue": 35613.03
+   "revenue": 35613.03,
+   "grossRevenue": 37795.54
   },
   {
    "code": 1011615900100010,
@@ -92,7 +102,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 24.0,
-   "revenue": 32893.69
+   "revenue": 32893.69,
+   "grossRevenue": 34897.74
   },
   {
    "code": 1011615700250010,
@@ -100,7 +111,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 13.0,
-   "revenue": 28960.23
+   "revenue": 28960.23,
+   "grossRevenue": 30751.3
   },
   {
    "code": 2020167702500000,
@@ -108,7 +120,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 69.0,
-   "revenue": 21631.48
+   "revenue": 21631.48,
+   "grossRevenue": 25538.07
   },
   {
    "code": 1082616200150010,
@@ -116,7 +129,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 92.0,
-   "revenue": 18411.91
+   "revenue": 18411.91,
+   "grossRevenue": 22488.73
   },
   {
    "code": 1040600710000010,
@@ -124,7 +138,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 35.0,
-   "revenue": 17542.95
+   "revenue": 17542.95,
+   "grossRevenue": 18979.47
   },
   {
    "code": 1011302004500020,
@@ -132,7 +147,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 87.0,
-   "revenue": 17320.0
+   "revenue": 17320.0,
+   "grossRevenue": 22768.22
   },
   {
    "code": 2020100102000310,
@@ -140,7 +156,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 56.0,
-   "revenue": 16557.96
+   "revenue": 16557.96,
+   "grossRevenue": 18447.73
   },
   {
    "code": 9033166610000000,
@@ -148,7 +165,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 44.0,
-   "revenue": 16028.4
+   "revenue": 16028.4,
+   "grossRevenue": 17100.92
   },
   {
    "code": 1082668000200000,
@@ -156,7 +174,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 39.0,
-   "revenue": 15693.64
+   "revenue": 15693.64,
+   "grossRevenue": 17489.62
   },
   {
    "code": 1011616900100010,
@@ -164,7 +183,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 9.0,
-   "revenue": 15420.87
+   "revenue": 15420.87,
+   "grossRevenue": 16518.56
   },
   {
    "code": 1010738401000010,
@@ -172,7 +192,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED OIL",
    "units": 88.0,
-   "revenue": 15017.31
+   "revenue": 15017.31,
+   "grossRevenue": 21163.88
   },
   {
    "code": 1050908200500010,
@@ -180,7 +201,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 79.0,
-   "revenue": 13752.0
+   "revenue": 13752.0,
+   "grossRevenue": 15858.69
   },
   {
    "code": 1011616000100050,
@@ -188,7 +210,8 @@
    "brand": "Goodcare",
    "division": "GC GOLD",
    "units": 5.0,
-   "revenue": 13444.3
+   "revenue": 13444.3,
+   "grossRevenue": 14214.5
   },
   {
    "code": 1030200204500010,
@@ -196,7 +219,8 @@
    "brand": "Baidyanath",
    "division": "GHEE",
    "units": 42.0,
-   "revenue": 13354.37
+   "revenue": 13354.37,
+   "grossRevenue": 14097.46
   },
   {
    "code": 1011306104500000,
@@ -204,7 +228,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 71.0,
-   "revenue": 12439.8
+   "revenue": 12439.8,
+   "grossRevenue": 14989.73
   },
   {
    "code": 9033128110000030,
@@ -212,7 +237,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 47.0,
-   "revenue": 12278.9
+   "revenue": 12278.9,
+   "grossRevenue": 15361.39
   },
   {
    "code": 1071101402000010,
@@ -220,7 +246,8 @@
    "brand": "Baidyanath",
    "division": "HAIR OIL",
    "units": 41.0,
-   "revenue": 11585.15
+   "revenue": 11585.15,
+   "grossRevenue": 14535.59
   },
   {
    "code": 1012207300800010,
@@ -228,7 +255,8 @@
    "brand": "Baidyanath",
    "division": "GUGGULU",
    "units": 95.0,
-   "revenue": 11560.87
+   "revenue": 11560.87,
+   "grossRevenue": 14783.25
   },
   {
    "code": 1011615700100010,
@@ -236,7 +264,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 12.0,
-   "revenue": 10872.0
+   "revenue": 10872.0,
+   "grossRevenue": 11693.11
   },
   {
    "code": 9033966410000000,
@@ -244,7 +273,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 25.0,
-   "revenue": 10839.56
+   "revenue": 10839.56,
+   "grossRevenue": 11871.5
   },
   {
    "code": 9033164110000000,
@@ -252,7 +282,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 25.0,
-   "revenue": 10623.69
+   "revenue": 10623.69,
+   "grossRevenue": 12391.47
   },
   {
    "code": 2042869200600520,
@@ -260,7 +291,8 @@
    "brand": "Goodcare",
    "division": "TABLET",
    "units": 7.0,
-   "revenue": 10138.73
+   "revenue": 10138.73,
+   "grossRevenue": 11963.7
   },
   {
    "code": 1011823501000000,
@@ -268,7 +300,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED GHRIT",
    "units": 42.0,
-   "revenue": 9744.0
+   "revenue": 9744.0,
+   "grossRevenue": 10925.05
   },
   {
    "code": 1011603900250010,
@@ -276,7 +309,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 5.0,
-   "revenue": 9638.57
+   "revenue": 9638.57,
+   "grossRevenue": 10267.5
   },
   {
    "code": 2070464900200000,
@@ -284,7 +318,8 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": 41.0,
-   "revenue": 9029.62
+   "revenue": 9029.62,
+   "grossRevenue": 10152.0
   },
   {
    "code": 2020100101100000,
@@ -292,7 +327,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 52.0,
-   "revenue": 8866.73
+   "revenue": 8866.73,
+   "grossRevenue": 11060.19
   },
   {
    "code": 1012859300600010,
@@ -300,7 +336,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 60.0,
-   "revenue": 8677.01
+   "revenue": 8677.01,
+   "grossRevenue": 9994.73
   },
   {
    "code": 1082664800300000,
@@ -308,7 +345,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 20.0,
-   "revenue": 8585.53
+   "revenue": 8585.53,
+   "grossRevenue": 11252.85
   },
   {
    "code": 1011201700250010,
@@ -316,7 +354,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 42.0,
-   "revenue": 8505.75
+   "revenue": 8505.75,
+   "grossRevenue": 9664.45
   },
   {
    "code": 1073861100300000,
@@ -324,7 +363,8 @@
    "brand": "Goodcare",
    "division": "GC-Medicated Oil",
    "units": 15.0,
-   "revenue": 8156.7
+   "revenue": 8156.7,
+   "grossRevenue": 9141.21
   },
   {
    "code": 1011042700010010,
@@ -332,7 +372,8 @@
    "brand": "Baidyanath",
    "division": "BHASMA & PISTI",
    "units": 17.0,
-   "revenue": 7990.26
+   "revenue": 7990.26,
+   "grossRevenue": 8683.8
   },
   {
    "code": 1010718100500010,
@@ -340,7 +381,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED OIL",
    "units": 26.0,
-   "revenue": 7927.31
+   "revenue": 7927.31,
+   "grossRevenue": 9809.36
   },
   {
    "code": 2082616400200020,
@@ -348,7 +390,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 20.0,
-   "revenue": 7693.74
+   "revenue": 7693.74,
+   "grossRevenue": 8598.19
   },
   {
    "code": 1011302204500020,
@@ -356,7 +399,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 41.0,
-   "revenue": 7279.96
+   "revenue": 7279.96,
+   "grossRevenue": 8467.71
   },
   {
    "code": 1012859300600000,
@@ -364,7 +408,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 49.0,
-   "revenue": 7177.76
+   "revenue": 7177.76,
+   "grossRevenue": 8494.18
   },
   {
    "code": 1011201501000010,
@@ -372,7 +417,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 35.0,
-   "revenue": 7157.19
+   "revenue": 7157.19,
+   "grossRevenue": 8902.13
   },
   {
    "code": 1092560603750410,
@@ -380,7 +426,8 @@
    "brand": "Baidyanath",
    "division": "M SURA",
    "units": 78.0,
-   "revenue": 7069.21
+   "revenue": 7069.21,
+   "grossRevenue": 8402.7
   },
   {
    "code": 1082618500500010,
@@ -388,7 +435,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 35.0,
-   "revenue": 6872.33
+   "revenue": 6872.33,
+   "grossRevenue": 7789.71
   },
   {
    "code": 1011624400100040,
@@ -396,7 +444,8 @@
    "brand": "Goodcare",
    "division": "GC GOLD",
    "units": 5.0,
-   "revenue": 6766.29
+   "revenue": 6766.29,
+   "grossRevenue": 7202.6
   },
   {
    "code": 1010529401000020,
@@ -404,7 +453,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 46.0,
-   "revenue": 6761.0
+   "revenue": 6761.0,
+   "grossRevenue": 8921.68
   },
   {
    "code": 2050930900600010,
@@ -412,7 +462,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 27.0,
-   "revenue": 6428.16
+   "revenue": 6428.16,
+   "grossRevenue": 7004.18
   },
   {
    "code": 2012871800600110,
@@ -420,7 +471,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 33.0,
-   "revenue": 6379.99
+   "revenue": 6379.99,
+   "grossRevenue": 7499.54
   },
   {
    "code": 9033127310000030,
@@ -428,7 +480,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 31.0,
-   "revenue": 6303.31
+   "revenue": 6303.31,
+   "grossRevenue": 7162.69
   },
   {
    "code": 1071169302000020,
@@ -436,7 +489,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED OIL",
    "units": 18.0,
-   "revenue": 5916.36
+   "revenue": 5916.36,
+   "grossRevenue": 7312.26
   },
   {
    "code": 2061917000300010,
@@ -444,7 +498,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 12.0,
-   "revenue": 5719.16
+   "revenue": 5719.16,
+   "grossRevenue": 6150.05
   },
   {
    "code": 1011307004500020,
@@ -452,7 +507,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 42.0,
-   "revenue": 5689.64
+   "revenue": 5689.64,
+   "grossRevenue": 7235.38
   },
   {
    "code": 1010500605000010,
@@ -460,7 +516,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 31.0,
-   "revenue": 5628.8
+   "revenue": 5628.8,
+   "grossRevenue": 7096.54
   },
   {
    "code": 1011617200300010,
@@ -468,7 +525,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 5.0,
-   "revenue": 5567.13
+   "revenue": 5567.13,
+   "grossRevenue": 5992.5
   },
   {
    "code": 1010500602000000,
@@ -476,7 +534,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 43.0,
-   "revenue": 5211.48
+   "revenue": 5211.48,
+   "grossRevenue": 6268.77
   },
   {
    "code": 2050931200600010,
@@ -484,7 +543,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 20.0,
-   "revenue": 5124.0
+   "revenue": 5124.0,
+   "grossRevenue": 5499.77
   },
   {
    "code": 1050910604500010,
@@ -492,7 +552,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 15.0,
-   "revenue": 5093.51
+   "revenue": 5093.51,
+   "grossRevenue": 5861.77
   },
   {
    "code": 1040623210000010,
@@ -500,7 +561,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 16.0,
-   "revenue": 4919.23
+   "revenue": 4919.23,
+   "grossRevenue": 5165.2
   },
   {
    "code": 2012872100600310,
@@ -508,7 +570,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 31.0,
-   "revenue": 4805.27
+   "revenue": 4805.27,
+   "grossRevenue": 5646.92
   },
   {
    "code": 9033127210000030,
@@ -516,7 +579,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 29.0,
-   "revenue": 4696.14
+   "revenue": 4696.14,
+   "grossRevenue": 5602.68
   },
   {
    "code": 2020129201000010,
@@ -524,7 +588,8 @@
    "brand": "Goodcare",
    "division": "DIGESTIVE",
    "units": 28.0,
-   "revenue": 4666.11
+   "revenue": 4666.11,
+   "grossRevenue": 6240.39
   },
   {
    "code": 9033166510000000,
@@ -532,7 +597,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 12.0,
-   "revenue": 4651.72
+   "revenue": 4651.72,
+   "grossRevenue": 5106.25
   },
   {
    "code": 1011618000050010,
@@ -540,7 +606,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 3.0,
-   "revenue": 4435.71
+   "revenue": 4435.71,
+   "grossRevenue": 4706.5
   },
   {
    "code": 1040635310000010,
@@ -548,7 +615,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 16.0,
-   "revenue": 4413.79
+   "revenue": 4413.79,
+   "grossRevenue": 5156.77
   },
   {
    "code": 1050937500500010,
@@ -556,7 +624,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 41.0,
-   "revenue": 4396.06
+   "revenue": 4396.06,
+   "grossRevenue": 5356.7
   },
   {
    "code": 2050930700600010,
@@ -564,7 +633,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 18.0,
-   "revenue": 4377.89
+   "revenue": 4377.89,
+   "grossRevenue": 4706.44
   },
   {
    "code": 9033164210000000,
@@ -572,7 +642,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 9.0,
-   "revenue": 4307.21
+   "revenue": 4307.21,
+   "grossRevenue": 4848.76
   },
   {
    "code": 9071568301000900,
@@ -580,7 +651,8 @@
    "brand": "Baidyanath",
    "division": "ORAL CARE",
    "units": 19.0,
-   "revenue": 4177.29
+   "revenue": 4177.29,
+   "grossRevenue": 4661.47
   },
   {
    "code": 9033127910000030,
@@ -588,7 +660,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 19.0,
-   "revenue": 4171.85
+   "revenue": 4171.85,
+   "grossRevenue": 5087.4
   },
   {
    "code": 1020110201000010,
@@ -596,7 +669,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 29.0,
-   "revenue": 4145.7
+   "revenue": 4145.7,
+   "grossRevenue": 4713.32
   },
   {
    "code": 2082639405000010,
@@ -604,7 +678,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 6.0,
-   "revenue": 3973.95
+   "revenue": 3973.95,
+   "grossRevenue": 4436.59
   },
   {
    "code": 1040660401000110,
@@ -612,7 +687,8 @@
    "brand": "Baidyanath",
    "division": "Uncategorized",
    "units": 12.0,
-   "revenue": 3811.29
+   "revenue": 3811.29,
+   "grossRevenue": 4295.25
   },
   {
    "code": 1012218600800010,
@@ -620,7 +696,8 @@
    "brand": "Baidyanath",
    "division": "GUGGULU",
    "units": 32.0,
-   "revenue": 3805.21
+   "revenue": 3805.21,
+   "grossRevenue": 4653.33
   },
   {
    "code": 1012859300600700,
@@ -628,7 +705,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 24.0,
-   "revenue": 3804.69
+   "revenue": 3804.69,
+   "grossRevenue": 4768.27
   },
   {
    "code": 2082628600600010,
@@ -636,7 +714,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 12.0,
-   "revenue": 3691.45
+   "revenue": 3691.45,
+   "grossRevenue": 4705.12
   },
   {
    "code": 1011206800500010,
@@ -644,7 +723,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 30.0,
-   "revenue": 3625.63
+   "revenue": 3625.63,
+   "grossRevenue": 4603.6
   },
   {
    "code": 1011303104500020,
@@ -652,7 +732,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 14.0,
-   "revenue": 3553.33
+   "revenue": 3553.33,
+   "grossRevenue": 4189.79
   },
   {
    "code": 1012859300600300,
@@ -660,7 +741,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 17.0,
-   "revenue": 3543.42
+   "revenue": 3543.42,
+   "grossRevenue": 4105.97
   },
   {
    "code": 1011312904500020,
@@ -668,7 +750,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 15.0,
-   "revenue": 3425.17
+   "revenue": 3425.17,
+   "grossRevenue": 4168.41
   },
   {
    "code": 2012871900600210,
@@ -676,7 +759,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 20.0,
-   "revenue": 3402.0
+   "revenue": 3402.0,
+   "grossRevenue": 4105.92
   },
   {
    "code": 1012410902500010,
@@ -684,7 +768,8 @@
    "brand": "Baidyanath",
    "division": "AVALEHA MODAK-PAK",
    "units": 7.0,
-   "revenue": 3394.31
+   "revenue": 3394.31,
+   "grossRevenue": 3854.78
   },
   {
    "code": 1040600705000010,
@@ -692,7 +777,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 11.0,
-   "revenue": 3390.01
+   "revenue": 3390.01,
+   "grossRevenue": 4032.23
   },
   {
    "code": 1011620000250010,
@@ -700,7 +786,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 4.0,
-   "revenue": 3356.57
+   "revenue": 3356.57,
+   "grossRevenue": 3748.92
   },
   {
    "code": 2061917100300010,
@@ -708,7 +795,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 4.0,
-   "revenue": 3347.61
+   "revenue": 3347.61,
+   "grossRevenue": 3564.0
   },
   {
    "code": 3042858500600110,
@@ -716,7 +804,8 @@
    "brand": "Goodcare",
    "division": "TABLET",
    "units": 7.0,
-   "revenue": 3336.66
+   "revenue": 3336.66,
+   "grossRevenue": 3679.02
   },
   {
    "code": 3033128110000120,
@@ -724,7 +813,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 14.0,
-   "revenue": 3272.54
+   "revenue": 3272.54,
+   "grossRevenue": 3828.2
   },
   {
    "code": 1011312604500020,
@@ -732,7 +822,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 14.0,
-   "revenue": 3088.4
+   "revenue": 3088.4,
+   "grossRevenue": 3487.8
   },
   {
    "code": 9030200205000000,
@@ -740,7 +831,8 @@
    "brand": "Baidyanath",
    "division": "GHEE",
    "units": 3.0,
-   "revenue": 3083.12
+   "revenue": 3083.12,
+   "grossRevenue": 3335.3
   },
   {
    "code": 2020100101000210,
@@ -748,7 +840,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 20.0,
-   "revenue": 3050.61
+   "revenue": 3050.61,
+   "grossRevenue": 4306.66
   },
   {
    "code": 2061914001000020,
@@ -756,7 +849,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 14.0,
-   "revenue": 3050.12
+   "revenue": 3050.12,
+   "grossRevenue": 3741.6
   },
   {
    "code": 1011616900100060,
@@ -764,7 +858,8 @@
    "brand": "Goodcare",
    "division": "GC GOLD",
    "units": 1.0,
-   "revenue": 2976.0
+   "revenue": 2976.0,
+   "grossRevenue": 3124.8
   },
   {
    "code": 2020100102000110,
@@ -772,7 +867,8 @@
    "brand": "Goodcare",
    "division": "DIGESTIVE",
    "units": 10.0,
-   "revenue": 2935.37
+   "revenue": 2935.37,
+   "grossRevenue": 3401.73
   },
   {
    "code": 1050925200500010,
@@ -780,7 +876,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 26.0,
-   "revenue": 2925.77
+   "revenue": 2925.77,
+   "grossRevenue": 3535.93
   },
   {
    "code": 1011303304500020,
@@ -788,7 +885,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 11.0,
-   "revenue": 2912.37
+   "revenue": 2912.37,
+   "grossRevenue": 3842.0
   },
   {
    "code": 2050902402000010,
@@ -796,7 +894,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 9.0,
-   "revenue": 2898.09
+   "revenue": 2898.09,
+   "grossRevenue": 3115.45
   },
   {
    "code": 2082616400200030,
@@ -804,7 +903,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 7.0,
-   "revenue": 2895.25
+   "revenue": 2895.25,
+   "grossRevenue": 3393.63
   },
   {
    "code": 1012859300600200,
@@ -812,7 +912,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 16.0,
-   "revenue": 2880.73
+   "revenue": 2880.73,
+   "grossRevenue": 3212.87
   },
   {
    "code": 2050922100600010,
@@ -820,7 +921,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 11.0,
-   "revenue": 2869.29
+   "revenue": 2869.29,
+   "grossRevenue": 3159.75
   },
   {
    "code": 2061930600600010,
@@ -828,7 +930,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 13.0,
-   "revenue": 2848.26
+   "revenue": 2848.26,
+   "grossRevenue": 3117.81
   },
   {
    "code": 1012410901000010,
@@ -836,7 +939,8 @@
    "brand": "Baidyanath",
    "division": "AVALEHA MODAK-PAK",
    "units": 15.0,
-   "revenue": 2831.67
+   "revenue": 2831.67,
+   "grossRevenue": 3705.07
   },
   {
    "code": 3082671100600110,
@@ -844,7 +948,8 @@
    "brand": "Goodcare",
    "division": "SEXUAL WELLNESS",
    "units": 4.0,
-   "revenue": 2818.9
+   "revenue": 2818.9,
+   "grossRevenue": 3353.19
   },
   {
    "code": 1012215500800010,
@@ -852,7 +957,8 @@
    "brand": "Baidyanath",
    "division": "GUGGULU",
    "units": 21.0,
-   "revenue": 2799.43
+   "revenue": 2799.43,
+   "grossRevenue": 3416.35
   },
   {
    "code": 1011311403000020,
@@ -860,7 +966,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 11.0,
-   "revenue": 2784.11
+   "revenue": 2784.11,
+   "grossRevenue": 3106.71
   },
   {
    "code": 1040967202000000,
@@ -868,7 +975,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 11.0,
-   "revenue": 2777.13
+   "revenue": 2777.13,
+   "grossRevenue": 3333.49
   },
   {
    "code": 1012859300600100,
@@ -876,7 +984,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 20.0,
-   "revenue": 2767.08
+   "revenue": 2767.08,
+   "grossRevenue": 3478.98
   },
   {
    "code": 1011312304500020,
@@ -884,7 +993,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 19.0,
-   "revenue": 2685.74
+   "revenue": 2685.74,
+   "grossRevenue": 3297.33
   },
   {
    "code": 1010509701000020,
@@ -892,7 +1002,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 30.0,
-   "revenue": 2633.33
+   "revenue": 2633.33,
+   "grossRevenue": 3252.62
   },
   {
    "code": 2073028902000010,
@@ -900,7 +1011,8 @@
    "brand": "Baidyanath",
    "division": "PURE OIL",
    "units": 11.0,
-   "revenue": 2595.67
+   "revenue": 2595.67,
+   "grossRevenue": 2860.04
   },
   {
    "code": 2050927001200010,
@@ -908,7 +1020,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 8.0,
-   "revenue": 2526.08
+   "revenue": 2526.08,
+   "grossRevenue": 2728.63
   },
   {
    "code": 1011205100300010,
@@ -916,7 +1029,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 21.0,
-   "revenue": 2513.36
+   "revenue": 2513.36,
+   "grossRevenue": 3223.42
   },
   {
    "code": 1012859300600800,
@@ -924,7 +1038,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 16.0,
-   "revenue": 2510.85
+   "revenue": 2510.85,
+   "grossRevenue": 2798.84
   },
   {
    "code": 1071101401000010,
@@ -932,7 +1047,8 @@
    "brand": "Baidyanath",
    "division": "HAIR OIL",
    "units": 15.0,
-   "revenue": 2500.05
+   "revenue": 2500.05,
+   "grossRevenue": 3696.46
   },
   {
    "code": 1011635000100010,
@@ -940,7 +1056,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 1.0,
-   "revenue": 2485.71
+   "revenue": 2485.71,
+   "grossRevenue": 2610.0
   },
   {
    "code": 2050952400600010,
@@ -948,7 +1065,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 12.0,
-   "revenue": 2455.25
+   "revenue": 2455.25,
+   "grossRevenue": 2697.92
   },
   {
    "code": 1061904301000010,
@@ -956,7 +1074,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 13.0,
-   "revenue": 2444.82
+   "revenue": 2444.82,
+   "grossRevenue": 3253.1
   },
   {
    "code": 1011804001000000,
@@ -964,7 +1083,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED GHRIT",
    "units": 9.0,
-   "revenue": 2441.15
+   "revenue": 2441.15,
+   "grossRevenue": 3151.2
   },
   {
    "code": 2050931600600010,
@@ -972,7 +1092,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 11.0,
-   "revenue": 2433.62
+   "revenue": 2433.62,
+   "grossRevenue": 2608.09
   },
   {
    "code": 1073861202000000,
@@ -980,7 +1101,8 @@
    "brand": "Goodcare",
    "division": "GC-Medicated Oil",
    "units": 7.0,
-   "revenue": 2413.18
+   "revenue": 2413.18,
+   "grossRevenue": 2550.84
   },
   {
    "code": 2042869100600420,
@@ -988,7 +1110,8 @@
    "brand": "Goodcare",
    "division": "TABLET",
    "units": 3.0,
-   "revenue": 2397.33
+   "revenue": 2397.33,
+   "grossRevenue": 2539.92
   },
   {
    "code": 2030300405000030,
@@ -996,7 +1119,8 @@
    "brand": "Baidyanath",
    "division": "HONEY",
    "units": 13.0,
-   "revenue": 2371.68
+   "revenue": 2371.68,
+   "grossRevenue": 2644.52
   },
   {
    "code": 1012207500800010,
@@ -1004,7 +1128,8 @@
    "brand": "Baidyanath",
    "division": "GUGGULU",
    "units": 12.0,
-   "revenue": 2357.38
+   "revenue": 2357.38,
+   "grossRevenue": 2832.41
   },
   {
    "code": 2061936501000010,
@@ -1012,7 +1137,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 11.0,
-   "revenue": 2330.92
+   "revenue": 2330.92,
+   "grossRevenue": 2606.54
   },
   {
    "code": 1050922604500010,
@@ -1020,7 +1146,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 5.0,
-   "revenue": 2327.62
+   "revenue": 2327.62,
+   "grossRevenue": 2542.0
   },
   {
    "code": 1040660402000310,
@@ -1028,7 +1155,8 @@
    "brand": "Baidyanath",
    "division": "Uncategorized",
    "units": 4.0,
-   "revenue": 2286.96
+   "revenue": 2286.96,
+   "grossRevenue": 2401.3
   },
   {
    "code": 2050924002000010,
@@ -1036,7 +1164,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 9.0,
-   "revenue": 2213.34
+   "revenue": 2213.34,
+   "grossRevenue": 2447.41
   },
   {
    "code": 2070439800200000,
@@ -1044,7 +1173,8 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": 10.0,
-   "revenue": 2197.41
+   "revenue": 2197.41,
+   "grossRevenue": 2353.81
   },
   {
    "code": 9034067800500000,
@@ -1052,7 +1182,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 7.0,
-   "revenue": 2166.11
+   "revenue": 2166.11,
+   "grossRevenue": 2584.74
   },
   {
    "code": 1010514502000010,
@@ -1060,7 +1191,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 10.0,
-   "revenue": 2095.21
+   "revenue": 2095.21,
+   "grossRevenue": 2762.69
   },
   {
    "code": 2073021500020010,
@@ -1068,7 +1200,8 @@
    "brand": "Goodcare",
    "division": "PURE OIL",
    "units": 3.0,
-   "revenue": 2068.66
+   "revenue": 2068.66,
+   "grossRevenue": 2221.1
   },
   {
    "code": 1050910502200010,
@@ -1076,7 +1209,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 19.0,
-   "revenue": 2066.67
+   "revenue": 2066.67,
+   "grossRevenue": 2334.52
   },
   {
    "code": 1011616600250010,
@@ -1084,7 +1218,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 1.0,
-   "revenue": 1994.57
+   "revenue": 1994.57,
+   "grossRevenue": 2094.3
   },
   {
    "code": 2073028001000010,
@@ -1092,7 +1227,8 @@
    "brand": "Baidyanath",
    "division": "PURE OIL",
    "units": 11.0,
-   "revenue": 1989.97
+   "revenue": 1989.97,
+   "grossRevenue": 2314.99
   },
   {
    "code": 1040660409000210,
@@ -1100,7 +1236,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 6.0,
-   "revenue": 1927.8
+   "revenue": 1927.8,
+   "grossRevenue": 2255.83
   },
   {
    "code": 1010506900500000,
@@ -1108,7 +1245,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 15.0,
-   "revenue": 1916.91
+   "revenue": 1916.91,
+   "grossRevenue": 2290.1
   },
   {
    "code": 1010736801000010,
@@ -1116,7 +1254,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED OIL",
    "units": 4.0,
-   "revenue": 1888.19
+   "revenue": 1888.19,
+   "grossRevenue": 2129.6
   },
   {
    "code": 1070400505000000,
@@ -1124,7 +1263,8 @@
    "brand": "Baidyanath",
    "division": "SKIN CARE",
    "units": 10.0,
-   "revenue": 1792.45
+   "revenue": 1792.45,
+   "grossRevenue": 2070.3
   },
   {
    "code": 2082628400600010,
@@ -1132,7 +1272,8 @@
    "brand": "Goodcare",
    "division": "SEXUAL WELLNESS",
    "units": 4.0,
-   "revenue": 1758.37
+   "revenue": 1758.37,
+   "grossRevenue": 1877.16
   },
   {
    "code": 1011318804500010,
@@ -1140,7 +1281,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 11.0,
-   "revenue": 1750.0
+   "revenue": 1750.0,
+   "grossRevenue": 2053.05
   },
   {
    "code": 1061918400500010,
@@ -1148,7 +1290,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 8.0,
-   "revenue": 1723.33
+   "revenue": 1723.33,
+   "grossRevenue": 1876.86
   },
   {
    "code": 1040623205000010,
@@ -1156,7 +1299,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 9.0,
-   "revenue": 1705.69
+   "revenue": 1705.69,
+   "grossRevenue": 1968.99
   },
   {
    "code": 2020100102000030,
@@ -1164,7 +1308,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 6.0,
-   "revenue": 1677.33
+   "revenue": 1677.33,
+   "grossRevenue": 1761.2
   },
   {
    "code": 1011307104500020,
@@ -1172,7 +1317,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 9.0,
-   "revenue": 1629.89
+   "revenue": 1629.89,
+   "grossRevenue": 1967.45
   },
   {
    "code": 2071168100150900,
@@ -1180,7 +1326,8 @@
    "brand": "Goodcare",
    "division": "HAIR OIL",
    "units": 7.0,
-   "revenue": 1621.69
+   "revenue": 1621.69,
+   "grossRevenue": 2040.86
   },
   {
    "code": 2061914000500020,
@@ -1188,7 +1335,8 @@
    "brand": "Baidyanath",
    "division": "PAIN MANAGEMENT",
    "units": 13.0,
-   "revenue": 1560.28
+   "revenue": 1560.28,
+   "grossRevenue": 1748.74
   },
   {
    "code": 9050953600300020,
@@ -1196,7 +1344,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 8.0,
-   "revenue": 1560.0
+   "revenue": 1560.0,
+   "grossRevenue": 2013.32
   },
   {
    "code": 1011312504500020,
@@ -1204,7 +1353,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 9.0,
-   "revenue": 1525.72
+   "revenue": 1525.72,
+   "grossRevenue": 1664.56
   },
   {
    "code": 1011213500800010,
@@ -1212,7 +1362,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 16.0,
-   "revenue": 1491.08
+   "revenue": 1491.08,
+   "grossRevenue": 2057.08
   },
   {
    "code": 1011253200600010,
@@ -1220,7 +1371,8 @@
    "brand": "Baidyanath",
    "division": "BATI & GOLIYAN",
    "units": 7.0,
-   "revenue": 1457.15
+   "revenue": 1457.15,
+   "grossRevenue": 1606.22
   },
   {
    "code": 2073028302000010,
@@ -1228,7 +1380,8 @@
    "brand": "Baidyanath",
    "division": "PURE OIL",
    "units": 3.0,
-   "revenue": 1399.68
+   "revenue": 1399.68,
+   "grossRevenue": 1494.7
   },
   {
    "code": 2050930501000010,
@@ -1236,7 +1389,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 7.0,
-   "revenue": 1395.82
+   "revenue": 1395.82,
+   "grossRevenue": 1531.44
   },
   {
    "code": 1012716502250020,
@@ -1244,7 +1398,8 @@
    "brand": "Baidyanath",
    "division": "ARK & KADHA",
    "units": 19.0,
-   "revenue": 1379.04
+   "revenue": 1379.04,
+   "grossRevenue": 1752.34
   },
   {
    "code": 2030300410000030,
@@ -1252,7 +1407,8 @@
    "brand": "Baidyanath",
    "division": "HONEY",
    "units": 6.0,
-   "revenue": 1368.36
+   "revenue": 1368.36,
+   "grossRevenue": 1436.78
   },
   {
    "code": 2070464600100000,
@@ -1260,7 +1416,8 @@
    "brand": "Goodcare",
    "division": "FACEWASH-GC",
    "units": 8.0,
-   "revenue": 1332.55
+   "revenue": 1332.55,
+   "grossRevenue": 1601.5
   },
   {
    "code": "PO00000091",
@@ -1268,7 +1425,8 @@
    "brand": "Other (Books)",
    "division": "Books",
    "units": 4.0,
-   "revenue": 1326.2
+   "revenue": 1326.2,
+   "grossRevenue": 1326.2
   },
   {
    "code": 2070454300300000,
@@ -1276,7 +1434,8 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": 7.0,
-   "revenue": 1307.24
+   "revenue": 1307.24,
+   "grossRevenue": 1574.07
   },
   {
    "code": 2082628406000110,
@@ -1284,7 +1443,8 @@
    "brand": "Baidyanath",
    "division": "SEXUAL WELLNESS",
    "units": 2.0,
-   "revenue": 1284.01
+   "revenue": 1284.01,
+   "grossRevenue": 1360.15
   },
   {
    "code": 2030300400500110,
@@ -1292,7 +1452,8 @@
    "brand": "Goodcare",
    "division": "HONEY",
    "units": 2.0,
-   "revenue": 1283.8
+   "revenue": 1283.8,
+   "grossRevenue": 1348.0
   },
   {
    "code": 1011313404500020,
@@ -1300,7 +1461,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 9.0,
-   "revenue": 1277.14
+   "revenue": 1277.14,
+   "grossRevenue": 1390.0
   },
   {
    "code": 2050927400600010,
@@ -1308,7 +1470,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 4.0,
-   "revenue": 1238.2
+   "revenue": 1238.2,
+   "grossRevenue": 1414.89
   },
   {
    "code": 9033164010000000,
@@ -1316,7 +1479,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 3.0,
-   "revenue": 1224.22
+   "revenue": 1224.22,
+   "grossRevenue": 1394.97
   },
   {
    "code": 1071144702000010,
@@ -1324,7 +1488,8 @@
    "brand": "Baidyanath",
    "division": "HAIR OIL",
    "units": 9.0,
-   "revenue": 1208.58
+   "revenue": 1208.58,
+   "grossRevenue": 1563.0
   },
   {
    "code": 1011322804500020,
@@ -1332,7 +1497,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 7.0,
-   "revenue": 1176.3
+   "revenue": 1176.3,
+   "grossRevenue": 1366.32
   },
   {
    "code": 2070422000600010,
@@ -1340,7 +1506,8 @@
    "brand": "Baidyanath",
    "division": "SKIN CARE",
    "units": 5.0,
-   "revenue": 1156.56
+   "revenue": 1156.56,
+   "grossRevenue": 1312.4
   },
   {
    "code": 1012859300600900,
@@ -1348,7 +1515,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 11.0,
-   "revenue": 1151.54
+   "revenue": 1151.54,
+   "grossRevenue": 1370.35
   },
   {
    "code": 1011315204500020,
@@ -1356,7 +1524,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 6.0,
-   "revenue": 1131.42
+   "revenue": 1131.42,
+   "grossRevenue": 1366.46
   },
   {
    "code": 2013229500600000,
@@ -1364,7 +1533,8 @@
    "brand": "Baidyanath",
    "division": "SINGLE HERB",
    "units": 6.0,
-   "revenue": 1131.06
+   "revenue": 1131.06,
+   "grossRevenue": 1208.41
   },
   {
    "code": 1011609400250010,
@@ -1372,7 +1542,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 1.0,
-   "revenue": 1065.43
+   "revenue": 1065.43,
+   "grossRevenue": 1118.7
   },
   {
    "code": 1050902500500010,
@@ -1380,7 +1551,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 5.0,
-   "revenue": 1052.11
+   "revenue": 1052.11,
+   "grossRevenue": 1476.94
   },
   {
    "code": 2020100302000050,
@@ -1388,7 +1560,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 7.0,
-   "revenue": 1036.18
+   "revenue": 1036.18,
+   "grossRevenue": 1291.4
   },
   {
    "code": 1070409102000000,
@@ -1396,7 +1569,8 @@
    "brand": "Baidyanath",
    "division": "SKIN CARE",
    "units": 16.0,
-   "revenue": 1031.53
+   "revenue": 1031.53,
+   "grossRevenue": 1132.1
   },
   {
    "code": 2050930200600010,
@@ -1404,7 +1578,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 4.0,
-   "revenue": 1005.24
+   "revenue": 1005.24,
+   "grossRevenue": 1202.5
   },
   {
    "code": 1092833601000010,
@@ -1412,7 +1587,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 5.0,
-   "revenue": 985.72
+   "revenue": 985.72,
+   "grossRevenue": 1133.0
   },
   {
    "code": 2073029001000010,
@@ -1420,7 +1596,8 @@
    "brand": "Goodcare",
    "division": "PURE OIL",
    "units": 9.0,
-   "revenue": 983.51
+   "revenue": 983.51,
+   "grossRevenue": 1151.89
   },
   {
    "code": 1071169402000220,
@@ -1428,7 +1605,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED OIL",
    "units": 3.0,
-   "revenue": 930.66
+   "revenue": 930.66,
+   "grossRevenue": 1026.2
   },
   {
    "code": 2050931000600010,
@@ -1436,7 +1614,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 3.0,
-   "revenue": 851.43
+   "revenue": 851.43,
+   "grossRevenue": 1004.97
   },
   {
    "code": 9033137010000000,
@@ -1444,7 +1623,8 @@
    "brand": "Baidyanath",
    "division": "HERBAL JUICE",
    "units": 2.0,
-   "revenue": 830.56
+   "revenue": 830.56,
+   "grossRevenue": 921.1
   },
   {
    "code": "PO00000071",
@@ -1452,7 +1632,8 @@
    "brand": "Other (Books)",
    "division": "Books",
    "units": 3.0,
-   "revenue": 810.0
+   "revenue": 810.0,
+   "grossRevenue": 810.0
   },
   {
    "code": 1040635305000010,
@@ -1460,7 +1641,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 4.0,
-   "revenue": 758.08
+   "revenue": 758.08,
+   "grossRevenue": 943.0
   },
   {
    "code": 2070427702000010,
@@ -1468,7 +1650,8 @@
    "brand": "Baidyanath",
    "division": "SKIN CARE",
    "units": 3.0,
-   "revenue": 707.05
+   "revenue": 707.05,
+   "grossRevenue": 742.4
   },
   {
    "code": 1073028301000010,
@@ -1476,7 +1659,8 @@
    "brand": "Baidyanath",
    "division": "PURE OIL",
    "units": 2.0,
-   "revenue": 673.27
+   "revenue": 673.27,
+   "grossRevenue": 706.93
   },
   {
    "code": 9031402302000010,
@@ -1484,7 +1668,8 @@
    "brand": "Baidyanath",
    "division": "CONDIMENTS",
    "units": 13.0,
-   "revenue": 657.32
+   "revenue": 657.32,
+   "grossRevenue": 837.2
   },
   {
    "code": 9030300400800000,
@@ -1492,7 +1677,8 @@
    "brand": "Baidyanath",
    "division": "HONEY",
    "units": 2.0,
-   "revenue": 648.07
+   "revenue": 648.07,
+   "grossRevenue": 713.16
   },
   {
    "code": 2071168701000020,
@@ -1500,7 +1686,8 @@
    "brand": "Baidyanath",
    "division": "HAIR OIL",
    "units": 2.0,
-   "revenue": 631.52
+   "revenue": 631.52,
+   "grossRevenue": 776.55
   },
   {
    "code": 1012207600800010,
@@ -1508,7 +1695,8 @@
    "brand": "Baidyanath",
    "division": "GUGGULU",
    "units": 3.0,
-   "revenue": 628.57
+   "revenue": 628.57,
+   "grossRevenue": 688.94
   },
   {
    "code": 1043254800600020,
@@ -1516,7 +1704,8 @@
    "brand": "Goodcare",
    "division": "SINGLE HERB",
    "units": 3.0,
-   "revenue": 626.67
+   "revenue": 626.67,
+   "grossRevenue": 658.0
   },
   {
    "code": 2070445200100000,
@@ -1524,7 +1713,8 @@
    "brand": "Goodcare",
    "division": "FACEWASH-GC",
    "units": 6.0,
-   "revenue": 602.28
+   "revenue": 602.28,
+   "grossRevenue": 737.77
   },
   {
    "code": 1040660400500210,
@@ -1532,7 +1722,8 @@
    "brand": "Baidyanath",
    "division": "Uncategorized",
    "units": 3.0,
-   "revenue": 568.56
+   "revenue": 568.56,
+   "grossRevenue": 793.0
   },
   {
    "code": 1011342904500020,
@@ -1540,7 +1731,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 2.0,
-   "revenue": 539.05
+   "revenue": 539.05,
+   "grossRevenue": 615.0
   },
   {
    "code": 1011317704500020,
@@ -1548,7 +1740,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 3.0,
-   "revenue": 537.15
+   "revenue": 537.15,
+   "grossRevenue": 711.0
   },
   {
    "code": 9033966710000000,
@@ -1556,7 +1749,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 1.0,
-   "revenue": 510.0
+   "revenue": 510.0,
+   "grossRevenue": 535.5
   },
   {
    "code": 2010500605000000,
@@ -1564,7 +1758,8 @@
    "brand": "Goodcare",
    "division": "CHURNA",
    "units": 2.0,
-   "revenue": 488.57
+   "revenue": 488.57,
+   "grossRevenue": 562.0
   },
   {
    "code": 1011609400100010,
@@ -1572,7 +1767,8 @@
    "brand": "Baidyanath",
    "division": "GOLD MEDICINES",
    "units": 1.0,
-   "revenue": 486.86
+   "revenue": 486.86,
+   "grossRevenue": 615.35
   },
   {
    "code": 2050950305000000,
@@ -1580,7 +1776,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 2.0,
-   "revenue": 483.49
+   "revenue": 483.49,
+   "grossRevenue": 552.55
   },
   {
    "code": 2070464700100000,
@@ -1588,7 +1785,8 @@
    "brand": "Goodcare",
    "division": "FACEWASH-GC",
    "units": 4.0,
-   "revenue": 467.19
+   "revenue": 467.19,
+   "grossRevenue": 551.3
   },
   {
    "code": 2020100301000040,
@@ -1596,7 +1794,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 5.0,
-   "revenue": 462.02
+   "revenue": 462.02,
+   "grossRevenue": 565.42
   },
   {
    "code": 9980570002000110,
@@ -1604,7 +1803,8 @@
    "brand": "Baidyanath",
    "division": "CHURNA",
    "units": 2.0,
-   "revenue": 432.48
+   "revenue": 432.48,
+   "grossRevenue": 552.1
   },
   {
    "code": 1012859300600500,
@@ -1612,7 +1812,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 2.0,
-   "revenue": 426.86
+   "revenue": 426.86,
+   "grossRevenue": 466.12
   },
   {
    "code": 1012859300600600,
@@ -1620,7 +1821,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 2.0,
-   "revenue": 426.66
+   "revenue": 426.66,
+   "grossRevenue": 487.37
   },
   {
    "code": 2073029300300010,
@@ -1628,7 +1830,8 @@
    "brand": "Goodcare",
    "division": "PURE OIL",
    "units": 2.0,
-   "revenue": 420.0
+   "revenue": 420.0,
+   "grossRevenue": 441.0
   },
   {
    "code": 1011833501000000,
@@ -1636,7 +1839,8 @@
    "brand": "Baidyanath",
    "division": "MEDICATED GHRIT",
    "units": 2.0,
-   "revenue": 417.14
+   "revenue": 417.14,
+   "grossRevenue": 574.8
   },
   {
    "code": 1011325404500020,
@@ -1644,7 +1848,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 3.0,
-   "revenue": 414.47
+   "revenue": 414.47,
+   "grossRevenue": 729.2
   },
   {
    "code": 2070468601500130,
@@ -1652,7 +1857,8 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": 2.0,
-   "revenue": 410.34
+   "revenue": 410.34,
+   "grossRevenue": 503.48
   },
   {
    "code": 9034069500010210,
@@ -1660,7 +1866,8 @@
    "brand": "Goodcare",
    "division": "HERBAL JUICE-GC",
    "units": 1.0,
-   "revenue": 356.57
+   "revenue": 356.57,
+   "grossRevenue": 472.4
   },
   {
    "code": 1040666300500000,
@@ -1668,7 +1875,8 @@
    "brand": "Goodcare",
    "division": "CHYAWANPRASH",
    "units": 1.0,
-   "revenue": 332.38
+   "revenue": 332.38,
+   "grossRevenue": 349.0
   },
   {
    "code": 2050952500600010,
@@ -1676,7 +1884,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 1.0,
-   "revenue": 304.77
+   "revenue": 304.77,
+   "grossRevenue": 539.59
   },
   {
    "code": 2070436900100000,
@@ -1684,7 +1893,8 @@
    "brand": "Goodcare",
    "division": "FACEWASH-GC",
    "units": 4.0,
-   "revenue": 295.78
+   "revenue": 295.78,
+   "grossRevenue": 349.0
   },
   {
    "code": 2070467900500010,
@@ -1692,7 +1902,8 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": 1.0,
-   "revenue": 278.8
+   "revenue": 278.8,
+   "grossRevenue": 329.0
   },
   {
    "code": 2030336601000010,
@@ -1700,7 +1911,8 @@
    "brand": "Baidyanath",
    "division": "HONEY",
    "units": 2.0,
-   "revenue": 231.41
+   "revenue": 231.41,
+   "grossRevenue": 246.69
   },
   {
    "code": 1012859300600400,
@@ -1708,7 +1920,8 @@
    "brand": "Baidyanath",
    "division": "TABLET",
    "units": 1.0,
-   "revenue": 230.57
+   "revenue": 230.57,
+   "grossRevenue": 242.1
   },
   {
    "code": 1070400503000000,
@@ -1716,7 +1929,8 @@
    "brand": "Baidyanath",
    "division": "SKIN CARE",
    "units": 2.0,
-   "revenue": 208.44
+   "revenue": 208.44,
+   "grossRevenue": 227.33
   },
   {
    "code": 1050919100080000,
@@ -1724,7 +1938,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 6.0,
-   "revenue": 208.0
+   "revenue": 208.0,
+   "grossRevenue": 218.4
   },
   {
    "code": 1011021600025010,
@@ -1732,7 +1947,8 @@
    "brand": "Baidyanath",
    "division": "BHASMA & PISTI",
    "units": 1.0,
-   "revenue": 195.24
+   "revenue": 195.24,
+   "grossRevenue": 205.0
   },
   {
    "code": 1011321704500010,
@@ -1740,7 +1956,8 @@
    "brand": "Baidyanath",
    "division": "ASAV ARISHTA",
    "units": 1.0,
-   "revenue": 160.95
+   "revenue": 160.95,
+   "grossRevenue": 267.0
   },
   {
    "code": 1040660405000000,
@@ -1748,7 +1965,8 @@
    "brand": "Baidyanath",
    "division": "CHYAWANPRASH",
    "units": 1.0,
-   "revenue": 150.54
+   "revenue": 150.54,
+   "grossRevenue": 158.07
   },
   {
    "code": 1020124800600010,
@@ -1756,7 +1974,8 @@
    "brand": "Baidyanath",
    "division": "DIGESTIVE",
    "units": 1.0,
-   "revenue": 148.3
+   "revenue": 148.3,
+   "grossRevenue": 160.23
   },
   {
    "code": 2050924001000010,
@@ -1764,7 +1983,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 1.0,
-   "revenue": 128.56
+   "revenue": 128.56,
+   "grossRevenue": 233.0
   },
   {
    "code": 1050908002000010,
@@ -1772,7 +1992,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 0.0,
-   "revenue": 35.24
+   "revenue": 35.24,
+   "grossRevenue": 49.12
   },
   {
    "code": 1082628400150020,
@@ -1780,7 +2001,8 @@
    "brand": "Goodcare",
    "division": "SEXUAL WELLNESS",
    "units": 1.0,
-   "revenue": 0.95
+   "revenue": 0.95,
+   "grossRevenue": 1.0
   },
   {
    "code": 1050922502200010,
@@ -1788,7 +2010,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 0.0,
-   "revenue": 0.0
+   "revenue": 0.0,
+   "grossRevenue": 98.0
   },
   {
    "code": 2050931300600000,
@@ -1796,7 +2019,8 @@
    "brand": "Baidyanath",
    "division": "OTC",
    "units": 0.0,
-   "revenue": -62.83
+   "revenue": -62.83,
+   "grossRevenue": -65.98
   },
   {
    "code": 2070468501500120,
@@ -1804,7 +2028,9 @@
    "brand": "Goodcare",
    "division": "SKIN CARE",
    "units": -1.0,
-   "revenue": -333.58
+   "revenue": -333.58,
+   "grossRevenue": -393.62
   }
- ]
+ ],
+ "grossRevenue": 2473510.44
 }

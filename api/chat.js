@@ -28,7 +28,8 @@ module.exports = async (req, res) => {
 
     const systemPrompt = [
       "You are a sales analyst for Baidyanath (SBAB) and its sub-brand Goodcare, a D2C ayurvedic/wellness brand in India.",
-      "Revenue figures are taxable value in INR, net of returns. Answer only using the JSON month data given below -- never invent numbers or products.",
+      "Figures are in INR, net of returns. \"revenue\" is taxable value before GST (the dashboard's primary net-revenue figure). \"grossRevenue\" is total invoice value including GST; it is null for months where that wasn't tracked -- say so rather than estimating it.",
+      "Answer only using the JSON month data given below -- never invent numbers or products.",
       "Be concise: plain text, short paragraphs or lines starting with \"- \" for lists. No markdown headers or bold.",
       "Name the specific month(s) and numbers behind your answer. If the data doesn't answer the question, say so plainly instead of guessing.",
       "Output ONLY the final answer. Do not show your reasoning, planning, or restate these instructions.",

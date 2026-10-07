@@ -35,7 +35,10 @@ So the data lives in `data/months/`, NOT in the HTML. Edit the JSON, rebuild.
 ```json
 {
   "label": "September 2026",
-  "revenue": 1234567.89,   // taxable value, net of returns
+  "revenue": 1234567.89,       // NET revenue: taxable value, net of returns, before GST
+  "grossRevenue": 1358024.68,  // GROSS revenue: total invoice value (incl. GST), net of returns.
+                                // Optional -- null/absent for months saved before this field
+                                // existed (everything before Sep 2026 at the time it was added).
   "units": 4321,
   "orders": 1800,
   "aov": 685.87,
@@ -43,10 +46,20 @@ So the data lives in `data/months/`, NOT in the HTML. Edit the JSON, rebuild.
   "products": [
     {"code": 1011312304500020, "name": "ABHAYARISTHA 450 ML (PET)",
      "brand": "Baidyanath", "division": "ASAV ARISHTA",
-     "units": 19, "revenue": 3211.34}
+     "units": 19, "revenue": 3211.34, "grossRevenue": 3532.47}
   ]
 }
 ```
+
+**Gross vs net revenue:** the Shopify export's "Sale format"/"Return format" sheets have
+both a "Taxable Value" column (ex-GST) and a "Total Invoice Value" column (incl. GST).
+`revenue` (and each product's `revenue`) is Taxable Value, net of returns -- this is the
+dashboard's primary, long-standing figure. `grossRevenue` is Total Invoice Value, net of
+returns -- what customers actually paid including GST. `parseWorkbook()` in
+`dashboard-template.html` computes both from the same rows, so any month uploaded through
+the dashboard gets `grossRevenue` automatically. Historical months saved before this field
+existed just don't have it (`grossRevenue` is `null`) unless someone re-parses that month's
+original export and backfills it -- the UI shows a note instead of a number in that case.
 
 ## Not yet built (ask if you want it)
 - A Python parser that turns a raw Shopify export workbook (the one with
