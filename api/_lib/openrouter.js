@@ -10,10 +10,14 @@
 // 404 in a few months. If every model below starts failing, refresh this
 // list from the live catalog: curl https://openrouter.ai/api/v1/models |
 // jq -r '.data[] | select(.id | endswith(":free")) | .id'
-// Plain instruct models first: the Nemotron "reasoning" models tend to dump
-// their chain-of-thought as the answer instead of a clean final response,
-// even when told not to. Keep them as a last-resort fallback only.
+// Verified against /api/diag on 2026-10-07: laguna-s-2.1 gives clean,
+// direct answers; the Gemma models are solid but were rate-limited on
+// OpenRouter's shared free pool at the time (may recover, worth keeping);
+// the Nemotron "reasoning" models tend to dump their chain-of-thought as
+// the answer instead of a clean final response, even when told not to, so
+// they're last-resort only. Re-run /api/diag if this list goes stale.
 const FALLBACK_FREE_MODELS = [
+  "poolside/laguna-s-2.1:free",
   "google/gemma-4-31b-it:free",
   "google/gemma-4-26b-a4b-it:free",
   "nvidia/nemotron-3-super-120b-a12b:free",
