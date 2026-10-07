@@ -6,11 +6,15 @@
 // otherwise we try a short list of free models in order, since free-tier
 // models on OpenRouter occasionally rate-limit or go down.
 
+// OpenRouter's free catalog turns over often -- slugs that exist today can
+// 404 in a few months. If every model below starts failing, refresh this
+// list from the live catalog: curl https://openrouter.ai/api/v1/models |
+// jq -r '.data[] | select(.id | endswith(":free")) | .id'
 const FALLBACK_FREE_MODELS = [
-  "deepseek/deepseek-chat-v3.1:free",
-  "meta-llama/llama-3.3-70b-instruct:free",
-  "google/gemini-2.0-flash-exp:free",
-  "qwen/qwen-2.5-72b-instruct:free",
+  "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "google/gemma-4-31b-it:free",
+  "google/gemma-4-26b-a4b-it:free",
 ];
 
 function candidateModels() {
