@@ -57,9 +57,10 @@ both a "Taxable Value" column (ex-GST) and a "Total Invoice Value" column (incl.
 dashboard's primary, long-standing figure. `grossRevenue` is Total Invoice Value, net of
 returns -- what customers actually paid including GST. `parseWorkbook()` in
 `dashboard-template.html` computes both from the same rows, so any month uploaded through
-the dashboard gets `grossRevenue` automatically. Historical months saved before this field
-existed just don't have it (`grossRevenue` is `null`) unless someone re-parses that month's
-original export and backfills it -- the UI shows a note instead of a number in that case.
+the dashboard gets `grossRevenue` automatically. All 13 months currently in `data/months/`
+(Sep 2025 - Sep 2026) have it, backfilled from the original Shopify export workbooks. If a
+future month is ever added without a `grossRevenue` (e.g. entered by hand), the UI falls
+back to a note instead of a number for that month rather than guessing.
 
 ## Not yet built (ask if you want it)
 - A Python parser that turns a raw Shopify export workbook (the one with
