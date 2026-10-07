@@ -1,0 +1,1578 @@
+{
+ "label": "December 2025",
+ "revenue": 1507469.56,
+ "units": 3805,
+ "orders": 2124,
+ "aov": 709.73,
+ "products": [
+  {
+   "brand": "Baidyanath",
+   "code": 1011318804500010,
+   "division": "ASAV ARISHTA",
+   "name": "DASHMULARISHTA (PET) 450 ML",
+   "revenue": 4086.27,
+   "units": 23
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2020167702500000,
+   "division": "DIGESTIVE",
+   "name": "ISABGOL ORANGE LAX 250 GM",
+   "revenue": 27039.7,
+   "units": 72
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010506900500000,
+   "division": "CHURNA",
+   "name": "SITOPALADI CHURNA 50 GM",
+   "revenue": 3953.89,
+   "units": 25
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050902500500010,
+   "division": "OTC",
+   "name": "PIRRHOIDS 50 TB",
+   "revenue": 2207.53,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1082616200150010,
+   "division": "SEXUAL WELLNESS",
+   "name": "VITA EX MASSAGE OIL 15 ML",
+   "revenue": 39189.12,
+   "units": 141
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010529401000020,
+   "division": "CHURNA",
+   "name": "ASHWAGANDHA CHURNA 100 GM (NEW PACK)",
+   "revenue": 8368.44,
+   "units": 48
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061914000500020,
+   "division": "PAIN MANAGEMENT",
+   "name": "RHUMA OIL 50 ML",
+   "revenue": 1569.39,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1070400503000000,
+   "division": "SKIN CARE",
+   "name": "BAIDYANATH-OLI OIL 300 ML-36 PC",
+   "revenue": 1713,
+   "units": 11
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011325404500020,
+   "division": "ASAV ARISHTA",
+   "name": "MAHAMANJISHTHADYARISHTA (PET) 450 ML",
+   "revenue": 1647.04,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011302204500020,
+   "division": "ASAV ARISHTA",
+   "name": "ARJUNARISTHA 450 ML (PET)",
+   "revenue": 6454.85,
+   "units": 31
+  },
+  {
+   "brand": "KaminiVrindawan Ras",
+   "code": 2010836700050010,
+   "division": "RAS RASAYAN",
+   "name": "KAMINIVINDRAVAN RAS (K.YU) 5 GM",
+   "revenue": 38607.78,
+   "units": 50
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2082616400200020,
+   "division": "SEXUAL WELLNESS",
+   "name": "VITA EX (G) WOMEN 20 CP",
+   "revenue": 4461.41,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1061904301000010,
+   "division": "PAIN MANAGEMENT",
+   "name": "MAHANARAYAN TEL 100 ML",
+   "revenue": 3776.07,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050931600600010,
+   "division": "OTC",
+   "name": "PROSGUARD 60 CP",
+   "revenue": 1979.44,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040600705000010,
+   "division": "CHYAWANPRASH",
+   "name": "KESARI KALP ROYAL CHYAWANPRASH 500 GM",
+   "revenue": 6310.95,
+   "units": 17
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1070400505000000,
+   "division": "SKIN CARE",
+   "name": "BAIDYANATH-OLI OIL 500 ML-24 PC",
+   "revenue": 16839.12,
+   "units": 70
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1030200209000310,
+   "division": "GHEE",
+   "name": "PREMIUM DESI COW GHEE 900 ML",
+   "revenue": 49953.26,
+   "units": 81
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040600700010110,
+   "division": "CHYAWANPRASH",
+   "name": "KESARI KALP ROYAL PRASH SUGARFREE 1 KG",
+   "revenue": 35603.45,
+   "units": 50
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040635310000010,
+   "division": "CHYAWANPRASH",
+   "name": "JUNIOR PRASH 1 KG",
+   "revenue": 14273.22,
+   "units": 44
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040660409000210,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWANPRASH AWLEH JAGGERY(GUR) 900 GM",
+   "revenue": 15827.56,
+   "units": 37
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9033164110000000,
+   "division": "HERBAL JUICE-GC",
+   "name": "LIVGOOD JUICE-GC-1 LT",
+   "revenue": 26568.15,
+   "units": 51
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2071168100150900,
+   "division": "HAIR OIL",
+   "name": "ROSEMERY OIL (GC) 15 ML",
+   "revenue": 1975.14,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010738401000010,
+   "division": "MEDICATED OIL",
+   "name": "SRIPARNI TEL 100 ML",
+   "revenue": 16949.2,
+   "units": 76
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040623205000010,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWAN-VIT (AWAHLEHA) 500 GM",
+   "revenue": 2200.67,
+   "units": 10
+  },
+  {
+   "brand": "KaminiVrindawan Ras",
+   "code": 2010836700100010,
+   "division": "RAS RASAYAN",
+   "name": "KAMINIVINDRAVAN RAS (K.YU) 10 GM",
+   "revenue": 371394.69,
+   "units": 275
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010500602000000,
+   "division": "CHURNA",
+   "name": "TRIPHALA CHURNA 200 GM",
+   "revenue": 3142.48,
+   "units": 21
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040660401000110,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWANPRASH (AWLEH) (SP Pk) 1kg+200g EX",
+   "revenue": 17709.51,
+   "units": 51
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040635305000010,
+   "division": "CHYAWANPRASH",
+   "name": "JUNIOR PRASH 500 GM",
+   "revenue": 3527.28,
+   "units": 15
+  },
+  {
+   "brand": "Unmapped/Other",
+   "code": 1043254800600010,
+   "division": "Uncategorized",
+   "name": "ASHWAGANDHA CAPLETS 60 TB-GC",
+   "revenue": 3145.5,
+   "units": 13
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011620000250010,
+   "division": "GOLD MEDICINES",
+   "name": "PURNACHANDRA RAS VRI(S.YU) 25 TB",
+   "revenue": 12628.13,
+   "units": 13
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1082664800300000,
+   "division": "SEXUAL WELLNESS",
+   "name": "VIGOR 100 STAMINA OIL-30 ML",
+   "revenue": 7295.82,
+   "units": 27
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1082618500500010,
+   "division": "SEXUAL WELLNESS",
+   "name": "SHILAJEET 50 TB",
+   "revenue": 4615.8,
+   "units": 19
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2073028001000010,
+   "division": "PURE OIL",
+   "name": "NEEM OIL 100 ML",
+   "revenue": 1656.18,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2020100102000030,
+   "division": "DIGESTIVE",
+   "name": "ISABGOL 200 GM (NEW PACK)",
+   "revenue": 5998.04,
+   "units": 20
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2082639405000010,
+   "division": "SEXUAL WELLNESS",
+   "name": "VIGOR 100 STAMINA 30 CP-500 MG",
+   "revenue": 12202.71,
+   "units": 24
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9030300400800000,
+   "division": "HONEY",
+   "name": "BAIDYANATH HONEY SQUEEZE BOTTLE-400 GMX2",
+   "revenue": 11086.04,
+   "units": 30
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011306104500000,
+   "division": "ASAV ARISHTA",
+   "name": "BHRINGRAJASAVA (PET) 450 ML-ECOM",
+   "revenue": 17268.29,
+   "units": 77
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010500605000010,
+   "division": "CHURNA",
+   "name": "TRIPHALA CHURNA 500 GM",
+   "revenue": 7112.13,
+   "units": 33
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050927001200010,
+   "division": "OTC",
+   "name": "DIABET GUARD 120 CP",
+   "revenue": 3030.73,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050927400600010,
+   "division": "OTC",
+   "name": "EZI SLIM 60 CP",
+   "revenue": 2787.82,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2082616400200010,
+   "division": "SEXUAL WELLNESS",
+   "name": "VITA EX (G) PLUS 20 CP",
+   "revenue": 72596.25,
+   "units": 92
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010718100500010,
+   "division": "MEDICATED OIL",
+   "name": "SRI GOPAL TAIL(K.YU.) 50 ML",
+   "revenue": 7293.97,
+   "units": 22
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061917000300010,
+   "division": "PAIN MANAGEMENT",
+   "name": "RUMARTHO GOLD 30 CP",
+   "revenue": 3860.2,
+   "units": 7
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2082628400600010,
+   "division": "SEXUAL WELLNESS",
+   "name": "SHILAJIT HM- 60 CP",
+   "revenue": 5093.68,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011312304500020,
+   "division": "ASAV ARISHTA",
+   "name": "ABHAYARISTHA 450 ML (PET)",
+   "revenue": 1889.82,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1092560603750410,
+   "division": "M SURA",
+   "name": "MRITASANJIV 375 ML (PET)",
+   "revenue": 67746.63,
+   "units": 534
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011317704500020,
+   "division": "ASAV ARISHTA",
+   "name": "ROHITAKARISTHA (PET) 450 ML",
+   "revenue": 179.05,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2020100101000020,
+   "division": "DIGESTIVE",
+   "name": "ISABGOL 100 GM (NEW PACK)",
+   "revenue": 3157.54,
+   "units": 16
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1020110201000010,
+   "division": "DIGESTIVE",
+   "name": "GASANTAK BATI 100 TB (96 PCS)",
+   "revenue": 1502.21,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1030200205000040,
+   "division": "GHEE",
+   "name": "GHEE 500 ML",
+   "revenue": 858.49,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011206800500010,
+   "division": "BATI & GOLIYAN",
+   "name": "SARPAGANDHA TABLET 50 TB",
+   "revenue": 2788.87,
+   "units": 17
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012716502250020,
+   "division": "ARK & KADHA",
+   "name": "AJVAYAN ARK 225 ML (PET)",
+   "revenue": 2591.68,
+   "units": 32
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033127210000030,
+   "division": "HERBAL JUICE",
+   "name": "ALOEVERA JUICE (SBAB) 1 LT",
+   "revenue": 9440.54,
+   "units": 38
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033127310000030,
+   "division": "HERBAL JUICE",
+   "name": "AMLA JUICE (SBAB) 1 LT",
+   "revenue": 10136.37,
+   "units": 48
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040600710000010,
+   "division": "CHYAWANPRASH",
+   "name": "KESARI KALP ROYAL CHYAWANPRASH 1 KG",
+   "revenue": 40919.52,
+   "units": 66
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033166610000000,
+   "division": "HERBAL JUICE",
+   "name": "DIA FIX JUICE (SBAB) 1 LT",
+   "revenue": 10357.53,
+   "units": 24
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033127910000030,
+   "division": "HERBAL JUICE",
+   "name": "TRIPHALA JUICE (SBAB) 1 LT",
+   "revenue": 6160.26,
+   "units": 24
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1020124800600010,
+   "division": "DIGESTIVE",
+   "name": "KABZHAR 60 TB",
+   "revenue": 1800.79,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2082628600600010,
+   "division": "SEXUAL WELLNESS",
+   "name": "SAFED MUSLI 60 CP",
+   "revenue": 5755.71,
+   "units": 16
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2082616400200030,
+   "division": "SEXUAL WELLNESS",
+   "name": "VITA EX (G) 20 CP",
+   "revenue": 12662.33,
+   "units": 27
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050930900600010,
+   "division": "OTC",
+   "name": "LIV GOOD 60 CP - 500 MG",
+   "revenue": 3795.25,
+   "units": 16
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050937500500010,
+   "division": "OTC",
+   "name": "DIACONT 50 TB",
+   "revenue": 1517.15,
+   "units": 13
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012207300800010,
+   "division": "GUGGULU",
+   "name": "KANCHANAR GUGGULU 80 TB (96 PCS)",
+   "revenue": 6545.88,
+   "units": 43
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050931200600010,
+   "division": "OTC",
+   "name": "SPIRULINA PLUS 60 CP",
+   "revenue": 593.54,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012215500800010,
+   "division": "GUGGULU",
+   "name": "TRIPHALA GUGGULU 80 TB (96 PCS)",
+   "revenue": 2769.47,
+   "units": 17
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070464900200000,
+   "division": "SKIN CARE",
+   "name": "BHRINGRAJ SHAMPOO-200 ML",
+   "revenue": 15389.32,
+   "units": 62
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1071101402000010,
+   "division": "HAIR OIL",
+   "name": "MAHABHRINGRAJ TEL(MED) 200 ML (24 PCS)",
+   "revenue": 22064.71,
+   "units": 64
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011253200600010,
+   "division": "BATI & GOLIYAN",
+   "name": "GUDUCHI (GILLOY) GHAN BATI 60 TB (80 PC)",
+   "revenue": 1684.62,
+   "units": 7
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1073861100300000,
+   "division": "GC-Medicated Oil",
+   "name": "KUMKUMADI OIL 30 ML-GC",
+   "revenue": 11277.36,
+   "units": 21
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070464600100000,
+   "division": "FACEWASH-GC",
+   "name": "KUMKUMADI FACEWASH-GC-100 ML",
+   "revenue": 629.83,
+   "units": 4
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070468501500120,
+   "division": "SKIN CARE",
+   "name": "KUMKUMADI FOAMING FACE WASH(GC) 150 ML",
+   "revenue": 1361.46,
+   "units": 5
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2073029300300010,
+   "division": "PURE OIL",
+   "name": "NEELGIRI TEL 30 ML",
+   "revenue": 1019.84,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040623210000010,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWAN-VIT (AWAHLEHA) 1 KG",
+   "revenue": 9144.21,
+   "units": 27
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033166510000000,
+   "division": "HERBAL JUICE",
+   "name": "BP BALANCE JUICE (SBAB) 1LT",
+   "revenue": 1437.15,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012410902500010,
+   "division": "AVALEHA MODAK-PAK",
+   "name": "MUSLI PAK 250 GM (NEW PACK)",
+   "revenue": 8218.54,
+   "units": 15
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600010,
+   "division": "TABLET",
+   "name": "ASHWAGANDHA TAB (SBAB) (250 MG) 60 TB",
+   "revenue": 6564.5,
+   "units": 29
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9033966710000000,
+   "division": "HERBAL JUICE-GC",
+   "name": "CHOLEST GUARD JUICE (GC) 1 LT",
+   "revenue": 5638.36,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011603900250010,
+   "division": "GOLD MEDICINES",
+   "name": "SUTASEKHAR RAS NO.1 (S.Y) 25 TB",
+   "revenue": 4311.43,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050931300600000,
+   "division": "OTC",
+   "name": "NIGHTZZ 60 CP",
+   "revenue": 3062.71,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9050953600300020,
+   "division": "OTC",
+   "name": "PANCH TULSI (AMRIT TULSI) DROPS 30 ML",
+   "revenue": 1883.47,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050910502200010,
+   "division": "OTC",
+   "name": "BALAMRIT 220 ML (24 PCS)",
+   "revenue": 1776.96,
+   "units": 14
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9030200205000000,
+   "division": "GHEE",
+   "name": "GOODCARE_A2 GHEE 500 ML",
+   "revenue": 10122.87,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600200,
+   "division": "TABLET",
+   "name": "GOODCARE MORINGA TABLET (500 MG) 60 TB",
+   "revenue": 747.52,
+   "units": 3
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9034069500010210,
+   "division": "HERBAL JUICE-GC",
+   "name": "GARCINIA JUICE-GC-1LT",
+   "revenue": 2486.26,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1082668000200000,
+   "division": "SEXUAL WELLNESS",
+   "name": "HIMALAYAN SHILAJIT GOLD 20 CP",
+   "revenue": 9565.37,
+   "units": 21
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1040666300500000,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWAN BOOST (GC) 500 GM - SUGAR FREE",
+   "revenue": 426.67,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050910604500010,
+   "division": "OTC",
+   "name": "LIVEROL SYRUP 450ML",
+   "revenue": 2062.87,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2073028902000010,
+   "division": "PURE OIL",
+   "name": "CASTOR OIL 200 ML",
+   "revenue": 2747.71,
+   "units": 11
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2020100101100000,
+   "division": "DIGESTIVE",
+   "name": "ISABGOL ORANGE LAX 110 GM",
+   "revenue": 5494.67,
+   "units": 28
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9033164210000000,
+   "division": "HERBAL JUICE-GC",
+   "name": "EZI SLIM JUICE-GC-1 LT",
+   "revenue": 7415.5,
+   "units": 16
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040660402000310,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWANPRASH (AWLEH) (SP PK) 2kg+400g EX",
+   "revenue": 5161.37,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011616000100010,
+   "division": "GOLD MEDICINES",
+   "name": "SIDHA MAKARDHWAJA (SPL) 10 TB",
+   "revenue": 33077.19,
+   "units": 14
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9031402302000010,
+   "division": "CONDIMENTS",
+   "name": "KASUNDI (MUSTARD) 200 GM",
+   "revenue": 715.25,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011312904500020,
+   "division": "ASAV ARISHTA",
+   "name": "SARSWATARISHTA 450 ML (PET)",
+   "revenue": 2934.78,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061930600600010,
+   "division": "PAIN MANAGEMENT",
+   "name": "ARTH PLUS 60 CP",
+   "revenue": 2233.58,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061936501000010,
+   "division": "PAIN MANAGEMENT",
+   "name": "ARTH OIL 100 ML",
+   "revenue": 3709.76,
+   "units": 17
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050952400600010,
+   "division": "OTC",
+   "name": "CALCIGUARD 60 TB",
+   "revenue": 2653.53,
+   "units": 13
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2073021500020010,
+   "division": "PURE OIL",
+   "name": "CHANDAN KA TEL 2 ML- GC",
+   "revenue": 1997.14,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050922504500010,
+   "division": "OTC",
+   "name": "SHANKHAPUSHPI SHARBAT COMBO PACK 450 ML",
+   "revenue": 1446.71,
+   "units": 6
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011617200300010,
+   "division": "GOLD MEDICINES",
+   "name": "MADHUMEHARI YOGA 30 TB",
+   "revenue": 5925.73,
+   "units": 6
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033128110000030,
+   "division": "HERBAL JUICE",
+   "name": "KARELA JAMUN JUICE (SBAB) 1 LT",
+   "revenue": 3332.29,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011307004500020,
+   "division": "ASAV ARISHTA",
+   "name": "ASHOKARISHTA 450 ML (PET)",
+   "revenue": 3940.24,
+   "units": 23
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011315204500020,
+   "division": "ASAV ARISHTA",
+   "name": "LOHASAVA (PET) 450 ML",
+   "revenue": 1982.56,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050925200500010,
+   "division": "OTC",
+   "name": "MEMOREX 50 TB",
+   "revenue": 2152.33,
+   "units": 16
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1071169302000020,
+   "division": "MEDICATED OIL",
+   "name": "RED ONION HAIR OIL 200 ML",
+   "revenue": 2904.89,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1070400502000000,
+   "division": "SKIN CARE",
+   "name": "BAIDYANATH-OLI OIL 200 ML-36 PC",
+   "revenue": 1241.68,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050930200600010,
+   "division": "OTC",
+   "name": "GOOD HEART 60 CP",
+   "revenue": 1291.65,
+   "units": 6
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011838900500010,
+   "division": "MEDICATED GHRIT",
+   "name": "PURANA GHRITA 50 GM (96 PCS)",
+   "revenue": 659.06,
+   "units": 6
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011615700250010,
+   "division": "GOLD MEDICINES",
+   "name": "BASANTKUSMAKAR RAS(S.M.A) 25 TB",
+   "revenue": 15474.87,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050930700600010,
+   "division": "OTC",
+   "name": "CHOLEST GUARD 60 CP",
+   "revenue": 1285.48,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011635000100010,
+   "division": "GOLD MEDICINES",
+   "name": "YOGENDRA RAS (S.M.Y.U) 10 TB",
+   "revenue": 2761.9,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011609400250010,
+   "division": "GOLD MEDICINES",
+   "name": "MAHALAXMIVILAS RAS (S.YU) 25 TB",
+   "revenue": 1183.81,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011616600250010,
+   "division": "GOLD MEDICINES",
+   "name": "BANGESHWAR RAS VRI (S.M.Y) 25 TB",
+   "revenue": 9026.52,
+   "units": 4
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1011616000100050,
+   "division": "GC GOLD",
+   "name": "SIDHA MAKARDHWAJA (SPL) 10TB-GC",
+   "revenue": 8314.29,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011042700010010,
+   "division": "BHASMA & PISTI",
+   "name": "ABHRAK BHASMA (SAHASRAPUTI ) 1 GM",
+   "revenue": 2106.66,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012218600800010,
+   "division": "GUGGULU",
+   "name": "KAISHORE GUGGULU 80 TB (96 PCS)",
+   "revenue": 1358.1,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050930300600010,
+   "division": "OTC",
+   "name": "IMMUN GUARD 60 CP",
+   "revenue": 1142.85,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011201501000010,
+   "division": "BATI & GOLIYAN",
+   "name": "CHANDRAPRABHA BATI 100 TB (96 PCS)",
+   "revenue": 676.71,
+   "units": 3
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1082628400150000,
+   "division": "SEXUAL WELLNESS",
+   "name": "HIMALAYAN SHILAJIT RESIN (GC) 15 GM",
+   "revenue": 13073.96,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011205100300010,
+   "division": "BATI & GOLIYAN",
+   "name": "BRAHMI BATI (BUDDHIVARDHAK) 30 TB",
+   "revenue": 2672.02,
+   "units": 19
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070467900500000,
+   "division": "SKIN CARE",
+   "name": "SUNSHIELD SUNBLOCK SPF 50 (GC) 50 GM",
+   "revenue": 304.24,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050908002000010,
+   "division": "OTC",
+   "name": "KASAMRIT (HERBAL) 200 ML (24 PCS)",
+   "revenue": 1964.84,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040967202000000,
+   "division": "OTC",
+   "name": "IMMUNE BOOST SYRUP 200 ML",
+   "revenue": 3747.28,
+   "units": 13
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2073028302000010,
+   "division": "PURE OIL",
+   "name": "ROGAN BADAM(ALMOND) OIL 200 ML",
+   "revenue": 4106.42,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9033137010000000,
+   "division": "HERBAL JUICE",
+   "name": "WHEAT GRASS JUICE (SBAB) 1 LT",
+   "revenue": 4309.27,
+   "units": 10
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1011615700100030,
+   "division": "GC GOLD",
+   "name": "BASANTKUSMAKAR RAS (S.M.A) 10TB-GC",
+   "revenue": 2379.99,
+   "units": 3
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1011624400100040,
+   "division": "GC GOLD",
+   "name": "BASANTMALTI RAS (S.M.A.YU) 10TB-GC",
+   "revenue": 761.9,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011312604500020,
+   "division": "ASAV ARISHTA",
+   "name": "MAHARASNADI KADHA (PET) 450 ML",
+   "revenue": 3693.46,
+   "units": 14
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010514502000010,
+   "division": "CHURNA",
+   "name": "PANCHASAKAR CHURNA 200 GM (NEW PACK)",
+   "revenue": 536.3,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050930501000010,
+   "division": "OTC",
+   "name": "STRESS GUARD MASSAGE OIL 100 ML",
+   "revenue": 435.55,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600300,
+   "division": "TABLET",
+   "name": "BAIDYANATH ARJUNA TABLET (250 MG) 60 TB",
+   "revenue": 2688.26,
+   "units": 11
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600900,
+   "division": "TABLET",
+   "name": "BAIDYANATH HALDI TABLET (250 MG) 60 TB",
+   "revenue": 1350.29,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011303304500020,
+   "division": "ASAV ARISHTA",
+   "name": "MAHAMANJISHTHADI KADHA (PET) 450 ML",
+   "revenue": 1387.63,
+   "units": 4
+  },
+  {
+   "brand": "Goodcare",
+   "code": 1073861202000000,
+   "division": "GC-Medicated Oil",
+   "name": "MAHABHRINGHRAJ OIL 200 ML-GC",
+   "revenue": 1887.25,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010509701000020,
+   "division": "CHURNA",
+   "name": "ARJUNCHALL CHURNA 100 GM (NEW PACK)",
+   "revenue": 1697.68,
+   "units": 14
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2013229500600000,
+   "division": "SINGLE HERB",
+   "name": "TRIPHALA 60 TB",
+   "revenue": 476.99,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600000,
+   "division": "TABLET",
+   "name": "BAIDYANATH HADJOD TABLET (250 MG) 60 TB",
+   "revenue": 2997.27,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1071144702000010,
+   "division": "HAIR OIL",
+   "name": "THANDA KALYAN TEL 200 ML (24 PCS)",
+   "revenue": 588.59,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600700,
+   "division": "TABLET",
+   "name": "BAIDYANATH TRIPHALA TABLET(250 MG)60 TB",
+   "revenue": 3488.19,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600800,
+   "division": "TABLET",
+   "name": "BAIDYANATH NEEM TABLET (250 MG) 60 TB",
+   "revenue": 3897.6,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050908200500010,
+   "division": "OTC",
+   "name": "PROSTAID 50 TB",
+   "revenue": 3271.68,
+   "units": 19
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011823501000000,
+   "division": "MEDICATED GHRIT",
+   "name": "MAHA TRIPHALA GHRITA 100 ML (72 PCS)",
+   "revenue": 4625.18,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600600,
+   "division": "TABLET",
+   "name": "GOODCARE BRAHMI TABLET (500 MG) 60 TB",
+   "revenue": 853.31,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1070409102000000,
+   "division": "SKIN CARE",
+   "name": "BAIDYANATH GULABI 200 ML",
+   "revenue": 580.18,
+   "units": 8
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1071169402000220,
+   "division": "MEDICATED OIL",
+   "name": "CURRY LEAVES HAIR OIL 200 ML",
+   "revenue": 1070.63,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011201700250010,
+   "division": "BATI & GOLIYAN",
+   "name": "SARPAGANDHAGHAN BATI(B) 25 TB",
+   "revenue": 2745.32,
+   "units": 11
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070439800200000,
+   "division": "SKIN CARE",
+   "name": "ALOEVERA SHAMPOO-GC-200 ML",
+   "revenue": 1455.4,
+   "units": 6
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070445200100000,
+   "division": "FACEWASH-GC",
+   "name": "ALOEVERA FACEWASH-GC-100 ML",
+   "revenue": 351.9,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011302004500020,
+   "division": "ASAV ARISHTA",
+   "name": "BALARISHTA 450 ML (PET)",
+   "revenue": 1109.32,
+   "units": 5
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070454300300000,
+   "division": "SKIN CARE",
+   "name": "ALOEVERA GEL-GC-300 GM",
+   "revenue": 1702.22,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050902402000010,
+   "division": "OTC",
+   "name": "MADHUMEHARI GRANULES 200 GM",
+   "revenue": 1117.14,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050931000600010,
+   "division": "OTC",
+   "name": "PILOSS 60 CP - 500 MG",
+   "revenue": 654.86,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600100,
+   "division": "TABLET",
+   "name": "BAIDYANATH MORINGA TABLET (250 MG) 60 TB",
+   "revenue": 1811.69,
+   "units": 11
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2071168701000020,
+   "division": "HAIR OIL",
+   "name": "ROOTBOOST ROSEMARY CURRYLF HAIR OIL 100M",
+   "revenue": 658.37,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600500,
+   "division": "TABLET",
+   "name": "GOODCARE SHATAVARI TABLET(500MG) 60TB",
+   "revenue": 1068.91,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2071168801000120,
+   "division": "HAIR OIL",
+   "name": "ROOTBOOST HIBISCUS BHRNGRJ HAIR OIL 100M",
+   "revenue": 2458.37,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2030300405000030,
+   "division": "HONEY",
+   "name": "MADHU 500 GM (PET)",
+   "revenue": 6925.39,
+   "units": 32
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9033966410000000,
+   "division": "HERBAL JUICE-GC",
+   "name": "THYRO BALANCE JUICE (GC) 1 LT",
+   "revenue": 8505.7,
+   "units": 18
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050950305000000,
+   "division": "OTC",
+   "name": "CONSTIGUARD-60 TB-500 MG",
+   "revenue": 720.95,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050922604500010,
+   "division": "OTC",
+   "name": "SUNDARI SAKHI 450 ML",
+   "revenue": 495.24,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011833501000000,
+   "division": "MEDICATED GHRIT",
+   "name": "ASHOK GHRITA 100 ML (72 PCS)",
+   "revenue": 208.57,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011321704500010,
+   "division": "ASAV ARISHTA",
+   "name": "AMRITARISHTA 450 ML (PET)",
+   "revenue": 690.48,
+   "units": 4
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2020129201000010,
+   "division": "DIGESTIVE",
+   "name": "ISABGOL (GC) 100 GM",
+   "revenue": 1026.16,
+   "units": 5
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9033164010000000,
+   "division": "HERBAL JUICE-GC",
+   "name": "DIGEST GUARD JUICE-GC-1 LT",
+   "revenue": 3467.61,
+   "units": 8
+  },
+  {
+   "brand": "Goodcare",
+   "code": 9034067800500000,
+   "division": "HERBAL JUICE-GC",
+   "name": "ORGANIC APPLE CIDER VINEGAR-GC-500ML",
+   "revenue": 1395.76,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1092833601000010,
+   "division": "TABLET",
+   "name": "AMLA PITTANTAK YOG 100 TB (96 PCS)",
+   "revenue": 2446.21,
+   "units": 10
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011312504500020,
+   "division": "ASAV ARISHTA",
+   "name": "KUMARIASAVA 450 ML (PET)",
+   "revenue": 1039.88,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2020100302000050,
+   "division": "DIGESTIVE",
+   "name": "KABZHAR 200 GM (NEW)-36 PC",
+   "revenue": 167.62,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061917100300010,
+   "division": "PAIN MANAGEMENT",
+   "name": "RUMARTHO GOLD PLUS 30 CP",
+   "revenue": 3762.15,
+   "units": 4
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2073029001000010,
+   "division": "PURE OIL",
+   "name": "TIL TEL 100 ML (GC)",
+   "revenue": 2140.01,
+   "units": 20
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011322804500020,
+   "division": "ASAV ARISHTA",
+   "name": "KANKASAVA (PET) 450 ML",
+   "revenue": 964.54,
+   "units": 5
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011313404500020,
+   "division": "ASAV ARISHTA",
+   "name": "SARIVADYARISHTA (PET) 450 ML",
+   "revenue": 708.55,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1040660400500210,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWANPRASH (AWLEH) (SP PK)500 g+75g EX",
+   "revenue": 1699.07,
+   "units": 7
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050924002000010,
+   "division": "OTC",
+   "name": "ISABBEAL-H (GRANULES) 200 GM",
+   "revenue": 2652.5,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011303104500020,
+   "division": "ASAV ARISHTA",
+   "name": "ASHWAGANDHARISHTA (PET) 450 ML",
+   "revenue": 3235.9,
+   "units": 11
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2030300400500110,
+   "division": "HONEY",
+   "name": "SUNDARBANS WILD FOREST HONEY-GC-500 GM",
+   "revenue": 3851.41,
+   "units": 6
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 9980570002000110,
+   "division": "CHURNA",
+   "name": "Organic Moringa Powder 200gm",
+   "revenue": 778.18,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1030200204500010,
+   "division": "GHEE",
+   "name": "GHEE 450 ML",
+   "revenue": 4232.37,
+   "units": 12
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2050922100600010,
+   "division": "OTC",
+   "name": "STRESS GUARD 60 CP",
+   "revenue": 1324.92,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2061914001000020,
+   "division": "PAIN MANAGEMENT",
+   "name": "RHUMA OIL 100 ML",
+   "revenue": 2367.5,
+   "units": 9
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2070427702000010,
+   "division": "SKIN CARE",
+   "name": "NEEM GUARD BODY OIL 200 ML",
+   "revenue": 1179.83,
+   "units": 4
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011804001000000,
+   "division": "MEDICATED GHRIT",
+   "name": "BRAHMI GHRITA 100 ML (72 PCS)",
+   "revenue": 587.6,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2070422000600010,
+   "division": "SKIN CARE",
+   "name": "NEEM GUARD 60 CP",
+   "revenue": 1222.63,
+   "units": 6
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070436900100000,
+   "division": "FACEWASH-GC",
+   "name": "NEEM FACEWASH-GC-100 ML",
+   "revenue": 95.02,
+   "units": 1
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2070464700100000,
+   "division": "FACEWASH-GC",
+   "name": "TURMERIC FACEWASH-GC-100 ML",
+   "revenue": 253.18,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1061918400500010,
+   "division": "PAIN MANAGEMENT",
+   "name": "RUMARTHO 50 TB",
+   "revenue": 1248.51,
+   "units": 5
+  },
+  {
+   "brand": "Goodcare",
+   "code": 2042869200600520,
+   "division": "TABLET",
+   "name": "GOODCARE BERBERINE 60 CAPS",
+   "revenue": 4894.21,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011213500800010,
+   "division": "BATI & GOLIYAN",
+   "name": "CHITRAKADI BATI 80 TB (96 PCS)",
+   "revenue": 101.58,
+   "units": 1
+  },
+  {
+   "brand": "Unmapped/Other",
+   "code": 1040660405000000,
+   "division": "CHYAWANPRASH",
+   "name": "CHYAWANPRASH AWLEH(SP.PK) 500 GM+10% EX",
+   "revenue": 548.45,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 2030336601000010,
+   "division": "HONEY",
+   "name": "DR.HONEY 100 ML",
+   "revenue": 411.42,
+   "units": 3
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011342904500020,
+   "division": "ASAV ARISHTA",
+   "name": "JEERKADYARISHTA (PET) 450 ML",
+   "revenue": 539.05,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011624400250010,
+   "division": "GOLD MEDICINES",
+   "name": "BASANTMALTI RAS (S.M.A.YU) 25 TB",
+   "revenue": 1999.05,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1050919100080000,
+   "division": "OTC",
+   "name": "BAIDYANATH BALM 8 ML",
+   "revenue": 80,
+   "units": 2
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1010736801000010,
+   "division": "MEDICATED OIL",
+   "name": "TUBRAK (CHALMUGRA) TEL 100 ML",
+   "revenue": 569.53,
+   "units": 1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1012859300600400,
+   "division": "TABLET",
+   "name": "GOODCARE ARJUNA TABLET (500 MG) 60 TB",
+   "revenue": -256.19,
+   "units": -1
+  },
+  {
+   "brand": "Baidyanath",
+   "code": 1011307104500020,
+   "division": "ASAV ARISHTA",
+   "name": "CHANDANASAVA (PET) 450 ML",
+   "revenue": -183.81,
+   "units": -1
+  }
+ ],
+ "note": null
+}
