@@ -181,6 +181,15 @@ button:focus-visible, select:focus-visible, input:focus-visible, th:focus-visibl
 .save-btn{margin-top:4px;}
 .upload-note{font-size:12.5px; padding:10px 12px; border-radius:8px; background:var(--chip-bg); color:var(--text-secondary); margin-bottom:10px;}
 .upload-note.warn{background:color-mix(in srgb, var(--bad) 12%, var(--surface-1)); color:var(--bad);}
+.ai-chat-log{display:flex; flex-direction:column; gap:10px; margin-bottom:12px; max-height:420px; overflow-y:auto;}
+.ai-chat-log:empty{display:none;}
+.ai-msg{max-width:88%; padding:10px 13px; border-radius:12px; font-size:13px; line-height:1.5; white-space:pre-wrap;}
+.ai-msg.user{align-self:flex-end; background:var(--accent); color:var(--accent-ink);}
+.ai-msg.assistant{align-self:flex-start; background:var(--surface-1); border:1px solid var(--border); color:var(--text-primary);}
+.ai-msg.assistant.err{border-color:var(--bad); color:var(--bad);}
+.ai-msg .model-tag{display:block; font-size:10.5px; color:var(--text-muted); margin-top:6px; letter-spacing:.02em;}
+.insights-note{font-size:13px; line-height:1.6; background:var(--surface-1); border:1px solid var(--border); border-radius:10px; padding:14px 16px; white-space:pre-wrap;}
+.insights-note.err{border-color:var(--bad); color:var(--bad);}
 
 .headline-card{
   background:linear-gradient(135deg, color-mix(in srgb, var(--s1) 10%, var(--surface-1)), var(--surface-1));
@@ -245,6 +254,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, th:focus-visibl
     <div class="nav-item" data-nav="trends"><span class="ic">∿</span>Trends &amp; seasonality</div>
     <div class="nav-item" data-nav="marketing"><span class="ic">▲</span>Marketing</div>
     <div class="nav-item" data-nav="targets"><span class="ic">◎</span>Targets</div>
+    <div class="nav-item" data-nav="ai"><span class="ic">✦</span>Ask AI</div>
     <div class="nav-item" data-nav="data"><span class="ic">⇧</span>Manage data</div>
     <div class="nav-foot" id="navFoot"></div>
   </div>
@@ -427,6 +437,32 @@ button:focus-visible, select:focus-visible, input:focus-visible, th:focus-visibl
       </div>
 
     </div><!-- /view-targets -->
+
+    <div id="view-ai" class="view">
+
+      <div class="card">
+        <h2>Monthly insights</h2>
+        <p class="desc">A short AI-written note on a selected month &mdash; standout products, risks, how it compares to recent months. Uses saved data only, never invents numbers.</p>
+        <div class="row" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+          <select id="insightsMonthSelect"></select>
+          <button id="insightsGenBtn">Generate insights</button>
+          <span class="step-label" id="insightsMeta" style="margin:0;"></span>
+        </div>
+        <div id="insightsOutput" style="margin-top:14px;"></div>
+      </div>
+
+      <div class="card">
+        <h2>Ask your data</h2>
+        <p class="desc">Ask things like &ldquo;why did revenue drop in January&rdquo; or &ldquo;how is ghee trending vs kaminivindravan&rdquo;. Answers are grounded in the saved monthly data for this dashboard.</p>
+        <div id="aiChatLog" class="ai-chat-log"></div>
+        <div class="row" style="display:flex; gap:10px;">
+          <input type="text" id="aiChatInput" placeholder="Ask a question about the sales data…" maxlength="600">
+          <button id="aiChatSendBtn">Ask</button>
+        </div>
+        <p class="footnote" id="aiAvailabilityNote"></p>
+      </div>
+
+    </div><!-- /view-ai -->
 
     <div id="view-data" class="view">
 
@@ -1546,7 +1582,139 @@ function boot(){
 
   const navFoot = document.getElementById('navFoot');
   if(navFoot) navFoot.textContent = `${keys.length} month${keys.length!==1?'s':''} tracked`;
+
+  initAiTab();
 }
+
+// ================= Ask AI (OpenRouter via /api) =================
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function mdLite(text){
+  const lines = String(text==null?'':text).split('\n');
+  let html = '', inList = false;
+  lines.forEach(line => {
+    const t = line.trim();
+    if(t.startsWith('- ')){
+      if(!inList){ html += '<ul style="margin:6px 0; padding-left:20px;">'; inList = true; }
+      html += `<li>${escapeHtml(t.slice(2))}</li>`;
+    } else {
+      if(inList){ html += '</ul>'; inList = false; }
+      if(t) html += `<div>${escapeHtml(t)}</div>`;
+    }
+  });
+  if(inList) html += '</ul>';
+  return html || escapeHtml(text);
+}
+function aiErrorMessage(e){
+  const msg = (e && e.message) || 'Something went wrong.';
+  if(/Failed to fetch|NetworkError|load failed/i.test(msg)){
+    return 'Could not reach the AI service. This feature only works on the deployed Vercel app, not in a local file preview or the Claude artifact link.';
+  }
+  return msg;
+}
+
+function insightsCacheKey(monthKey){ return 'sbab_insights_v1_' + monthKey; }
+function readInsightsCache(monthKey){
+  try { const raw = localStorage.getItem(insightsCacheKey(monthKey)); return raw ? JSON.parse(raw) : null; } catch(e){ return null; }
+}
+function writeInsightsCache(monthKey, data){
+  try { localStorage.setItem(insightsCacheKey(monthKey), JSON.stringify(data)); } catch(e){ /* storage unavailable — skip caching */ }
+}
+function renderInsights(payload){
+  const out = document.getElementById('insightsOutput');
+  const meta = document.getElementById('insightsMeta');
+  if(payload.error){
+    out.innerHTML = `<div class="insights-note err">${escapeHtml(payload.error)}</div>`;
+    meta.textContent = '';
+    return;
+  }
+  out.innerHTML = `<div class="insights-note">${mdLite(payload.insights)}</div>`;
+  meta.textContent = payload.model ? `via ${payload.model}` : '';
+}
+async function generateInsights(monthKey, force){
+  const btn = document.getElementById('insightsGenBtn');
+  const out = document.getElementById('insightsOutput');
+  if(!force){
+    const cached = readInsightsCache(monthKey);
+    if(cached){ renderInsights(cached); return; }
+  }
+  btn.disabled = true;
+  out.innerHTML = `<div class="empty-state"><div class="spinner"></div>Thinking…</div>`;
+  try {
+    const res = await fetch('/api/insights', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({monthKey, months: MONTHS}),
+    });
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.error || ('Request failed (' + res.status + ')'));
+    writeInsightsCache(monthKey, data);
+    renderInsights(data);
+  } catch(e){
+    renderInsights({error: aiErrorMessage(e)});
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function appendChatMsg(role, text, modelTag){
+  const log = document.getElementById('aiChatLog');
+  const div = document.createElement('div');
+  div.className = 'ai-msg ' + role + (modelTag === 'err' ? ' err' : '');
+  div.innerHTML = mdLite(text) + (modelTag && modelTag !== 'err' ? `<span class="model-tag">via ${escapeHtml(modelTag)}</span>` : '');
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+  return div;
+}
+async function sendChat(){
+  const input = document.getElementById('aiChatInput');
+  const question = input.value.trim();
+  if(!question) return;
+  const btn = document.getElementById('aiChatSendBtn');
+  appendChatMsg('user', question);
+  input.value = '';
+  btn.disabled = true; input.disabled = true;
+  const thinking = appendChatMsg('assistant', 'Thinking…');
+  try {
+    const res = await fetch('/api/chat', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({question, months: MONTHS}),
+    });
+    const data = await res.json();
+    thinking.remove();
+    if(!res.ok) throw new Error(data.error || ('Request failed (' + res.status + ')'));
+    appendChatMsg('assistant', data.answer, data.model);
+  } catch(e){
+    thinking.remove();
+    appendChatMsg('assistant', aiErrorMessage(e), 'err');
+  } finally {
+    btn.disabled = false; input.disabled = false; input.focus();
+  }
+}
+
+function initAiTab(){
+  const keys = monthKeysSorted();
+  if(!keys.length) return;
+  const sel = document.getElementById('insightsMonthSelect');
+  const prev = sel.value;
+  sel.innerHTML = keys.map(k => `<option value="${k}">${monthLabel(k)}</option>`).join('');
+  sel.value = keys.includes(prev) ? prev : keys[keys.length-1];
+
+  document.getElementById('insightsGenBtn').onclick = () => generateInsights(sel.value, true);
+  sel.onchange = () => {
+    document.getElementById('insightsOutput').innerHTML = '';
+    document.getElementById('insightsMeta').textContent = '';
+    const cached = readInsightsCache(sel.value);
+    if(cached) renderInsights(cached);
+  };
+  const cached = readInsightsCache(sel.value);
+  if(cached) renderInsights(cached);
+
+  const note = document.getElementById('aiAvailabilityNote');
+  if(note) note.textContent = 'Runs on this deployment’s own AI backend (OpenRouter). Needs OPENROUTER_API_KEY set on the Vercel project — ask whoever manages it if answers don’t come through.';
+}
+document.getElementById('aiChatSendBtn').addEventListener('click', sendChat);
+document.getElementById('aiChatInput').addEventListener('keydown', (e) => { if(e.key === 'Enter') sendChat(); });
 
 initDb();
 </script>

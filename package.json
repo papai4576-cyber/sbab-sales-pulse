@@ -1,0 +1,9 @@
+{
+  "name": "sbab-sales-pulse",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SBAB Sales Pulse dashboard + OpenRouter-backed AI endpoints",
+  "engines": {
+    "node": ">=18"
+  }
+}
