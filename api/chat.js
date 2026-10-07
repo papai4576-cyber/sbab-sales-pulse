@@ -31,6 +31,7 @@ module.exports = async (req, res) => {
       "Revenue figures are taxable value in INR, net of returns. Answer only using the JSON month data given below -- never invent numbers or products.",
       "Be concise: plain text, short paragraphs or lines starting with \"- \" for lists. No markdown headers or bold.",
       "Name the specific month(s) and numbers behind your answer. If the data doesn't answer the question, say so plainly instead of guessing.",
+      "Output ONLY the final answer. Do not show your reasoning, planning, or restate these instructions.",
       "",
       "Monthly data, oldest to newest (revenue in INR):",
       JSON.stringify(data),

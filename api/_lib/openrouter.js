@@ -10,11 +10,14 @@
 // 404 in a few months. If every model below starts failing, refresh this
 // list from the live catalog: curl https://openrouter.ai/api/v1/models |
 // jq -r '.data[] | select(.id | endswith(":free")) | .id'
+// Plain instruct models first: the Nemotron "reasoning" models tend to dump
+// their chain-of-thought as the answer instead of a clean final response,
+// even when told not to. Keep them as a last-resort fallback only.
 const FALLBACK_FREE_MODELS = [
-  "nvidia/nemotron-3-ultra-550b-a55b:free",
-  "nvidia/nemotron-3-super-120b-a12b:free",
   "google/gemma-4-31b-it:free",
   "google/gemma-4-26b-a4b-it:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "nvidia/nemotron-3-ultra-550b-a55b:free",
 ];
 
 function candidateModels() {

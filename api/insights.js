@@ -35,6 +35,7 @@ module.exports = async (req, res) => {
       "Standouts: notable SKU or division moves, up or down, with the actual numbers.",
       "Risks: concentration, anomalies, or anything in the data that looks off.",
       "Keep the whole note under 160 words.",
+      "Output ONLY the final note in that structure. Do not show your reasoning, planning, or restate these instructions.",
       "",
       `Target month: ${target.key} (${target.label})`,
       "History, oldest to newest, target month last:",
@@ -44,7 +45,7 @@ module.exports = async (req, res) => {
     const { text, model } = await callOpenRouter({
       systemPrompt,
       userPrompt: `Write the insight note for ${target.label}.`,
-      maxTokens: 500,
+      maxTokens: 700,
     });
 
     res.status(200).json({ insights: text, model, monthKey });
